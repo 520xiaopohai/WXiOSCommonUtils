@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '8.0'
+
+target 'WXiOSCommonUtils_Example' do
+  pod 'WXiOSCommonUtils', :path => '../'
+
+  target 'WXiOSCommonUtils_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
