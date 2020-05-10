@@ -1,0 +1,6 @@
+framework module WXiOSCommonUtils {
+  umbrella header "WXiOSCommonUtils-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,50 @@
+/* 
+  Localizable.strings
+  WXiOSCommonUtils
+
+  Created by qfh on 2019/6/20.
+  Copyright © 2019 Wangxu Apple Team - Joni. All rights reserved.
+*/
+"key_text_appName"       =   "蜜蜂剪辑";
+"key_login_passwordless"       =   "Password-Less Login";
+"key_login_getcode"       =   "Get";
+"key_login_verificationcode"       =   "Verification Code";
+"key_login_login"       =   "Login";
+"key_login_hasuserlogin"       =   "Existing account log";
+"key_login_register"       =   "Sign up";
+"key_login_phonenumber"       =   "Phone Number";
+"key_login_accpted"       =   "Accepted";
+"key_login_termsService"       =   "Terms of Service";
+"key_login_privacypolicy"       =   "Privacy Policy";
+"key_login_and"       =   "and";
+"key_login_cookies"       =   "Cookies";
+"key_login_policy"       =   "Policy";
+
+"key_login_userpasswordlogin"       =   "Existing account log";
+"key_login_user"       =   "账号";
+"key_login_password"       =   "Password";
+
+"key_login_confirmpassword"       =   "Confirm Password";
+"key_login_oneregister"       =   "Login";
+
+"key_login_phone"       =   "Phone";
+"key_login_email"       =   "Email";
+
+"key_SMS_SelectCountryArea" = "Select country area";
+"key_SMS_Search" = "Search";
+
+"key_alert_alreadRegister" = "Registered";
+"key_alert_captchaError" = "Invalid verification code";
+"key_alert_captchaSendFailed" = "Failed to send verification code";
+"key_alert_captchaSendSucc" = "Verification code sent successfully!";
+"key_alert_captchaSendEmailLimit" = "You can request verification code under an Email address 5 times per day.";
+"key_alert_captchaSendTelephoneLimit" = "TelephonYou can request verification code under a phone number 5 times per day.";
+"key_alert_registerFailed" = "Your signup failed, please try again!";
+"key_alert_registerSucc" = "Register successfully";
+"key_alert_loginSucc" = "Login success";
+"key_alert_passwordError" = "Password error";
+"key_alert_accountOrPwdError" = "Incorrect account or password";
+
+"key_url_terms" = "https://www.apowersoft.com/terms";
+"key_url_privacy" = "https://www.apowersoft.com/privacy";
+"key_url_cookies" = "https://www.apowersoft.com/cookies-policy";

@@ -1,0 +1,51 @@
+PODS:
+  - AFNetworking (3.2.1):
+    - AFNetworking/NSURLSession (= 3.2.1)
+    - AFNetworking/Reachability (= 3.2.1)
+    - AFNetworking/Security (= 3.2.1)
+    - AFNetworking/Serialization (= 3.2.1)
+    - AFNetworking/UIKit (= 3.2.1)
+  - AFNetworking/NSURLSession (3.2.1):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (3.2.1)
+  - AFNetworking/Security (3.2.1)
+  - AFNetworking/Serialization (3.2.1)
+  - AFNetworking/UIKit (3.2.1):
+    - AFNetworking/NSURLSession
+  - WXiOSCommonUtils (0.1.0):
+    - YBNetwork
+    - YYImage
+  - YBNetwork (1.0.6):
+    - AFNetworking
+    - YYCache (~> 1.0.4)
+  - YYCache (1.0.4)
+  - YYImage (1.0.4):
+    - YYImage/Core (= 1.0.4)
+  - YYImage/Core (1.0.4)
+
+DEPENDENCIES:
+  - WXiOSCommonUtils (from `../`)
+
+SPEC REPOS:
+  trunk:
+    - AFNetworking
+    - YBNetwork
+    - YYCache
+    - YYImage
+
+EXTERNAL SOURCES:
+  WXiOSCommonUtils:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  AFNetworking: b6f891fdfaed196b46c7a83cf209e09697b94057
+  WXiOSCommonUtils: a10decc84b41f2b31bf278737cec31e5857aa4c2
+  YBNetwork: 3966796a8f9c97a24df2c42bd234c489e97eec09
+  YYCache: 8105b6638f5e849296c71f331ff83891a4942952
+  YYImage: 1e1b62a9997399593e4b9c4ecfbbabbf1d3f3b54
+
+PODFILE CHECKSUM: 5b58bf91d07ccf97e6c166d0e0017b589ce25141
+
+COCOAPODS: 1.9.1

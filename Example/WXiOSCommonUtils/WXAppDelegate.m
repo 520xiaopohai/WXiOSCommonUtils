@@ -7,6 +7,7 @@
 //
 
 #import "WXAppDelegate.h"
+#import <WXiOSCommonUtils/WXiOSCommonUtils.h>
 
 @implementation WXAppDelegate
 

@@ -37,10 +37,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		17C7160421B29FD8B6C78647 /* WXiOSCommonUtils.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = WXiOSCommonUtils.podspec; path = ../WXiOSCommonUtils.podspec; sourceTree = "<group>"; };
+		17C7160421B29FD8B6C78647 /* WXiOSCommonUtils.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = WXiOSCommonUtils.podspec; path = ../WXiOSCommonUtils.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		1F7ABD5A122AF3F512EEB7CA /* Pods-WXiOSCommonUtils_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WXiOSCommonUtils_Example.release.xcconfig"; path = "Target Support Files/Pods-WXiOSCommonUtils_Example/Pods-WXiOSCommonUtils_Example.release.xcconfig"; sourceTree = "<group>"; };
 		3954D0A9118CB27A04A605A7 /* Pods_WXiOSCommonUtils_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WXiOSCommonUtils_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		4DEFF3C21D14CD39CA29AB40 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		4DEFF3C21D14CD39CA29AB40 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* WXiOSCommonUtils_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WXiOSCommonUtils_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -62,7 +62,7 @@
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		8BA3DFA04C620D6AD7493A9E /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		8BA3DFA04C620D6AD7493A9E /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		A2232E4FBF94CBB2262D9F9F /* Pods-WXiOSCommonUtils_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WXiOSCommonUtils_Tests.debug.xcconfig"; path = "Target Support Files/Pods-WXiOSCommonUtils_Tests/Pods-WXiOSCommonUtils_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		DD98E2E2DA376FEC72B167A4 /* Pods-WXiOSCommonUtils_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WXiOSCommonUtils_Example.debug.xcconfig"; path = "Target Support Files/Pods-WXiOSCommonUtils_Example/Pods-WXiOSCommonUtils_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		E655371AA3BCD91D72564BB7 /* Pods-WXiOSCommonUtils_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WXiOSCommonUtils_Tests.release.xcconfig"; path = "Target Support Files/Pods-WXiOSCommonUtils_Tests/Pods-WXiOSCommonUtils_Tests.release.xcconfig"; sourceTree = "<group>"; };
@@ -193,7 +193,6 @@
 				A2232E4FBF94CBB2262D9F9F /* Pods-WXiOSCommonUtils_Tests.debug.xcconfig */,
 				E655371AA3BCD91D72564BB7 /* Pods-WXiOSCommonUtils_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -258,6 +257,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -324,11 +324,19 @@
 			);
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-WXiOSCommonUtils_Example/Pods-WXiOSCommonUtils_Example-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/AFNetworking/AFNetworking.framework",
 				"${BUILT_PRODUCTS_DIR}/WXiOSCommonUtils/WXiOSCommonUtils.framework",
+				"${BUILT_PRODUCTS_DIR}/YBNetwork/YBNetwork.framework",
+				"${BUILT_PRODUCTS_DIR}/YYCache/YYCache.framework",
+				"${BUILT_PRODUCTS_DIR}/YYImage/YYImage.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AFNetworking.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/WXiOSCommonUtils.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/YBNetwork.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/YYCache.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/YYImage.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;

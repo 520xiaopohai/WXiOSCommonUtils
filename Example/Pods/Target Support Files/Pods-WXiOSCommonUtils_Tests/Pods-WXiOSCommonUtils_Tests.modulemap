@@ -1,0 +1,6 @@
+framework module Pods_WXiOSCommonUtils_Tests {
+  umbrella header "Pods-WXiOSCommonUtils_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}
