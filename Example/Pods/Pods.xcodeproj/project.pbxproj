@@ -65,86 +65,10 @@
 		348DF6F02467A88100786A3E /* user@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 348DF5E52467A88000786A3E /* user@3x.png */; };
 		348DF6F12467A88100786A3E /* user@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 348DF5E62467A88000786A3E /* user@2x.png */; };
 		348DF6F22467A88100786A3E /* countryCodesEN.plist in Resources */ = {isa = PBXBuildFile; fileRef = 348DF5E72467A88000786A3E /* countryCodesEN.plist */; };
-		348DF6F42467A88100786A3E /* WXCommLog.m in Sources */ = {isa = PBXBuildFile; fileRef = 348DF5EB2467A88000786A3E /* WXCommLog.m */; };
-		348DF6F52467A88100786A3E /* WXCommLog.h in Headers */ = {isa = PBXBuildFile; fileRef = 348DF5EC2467A88000786A3E /* WXCommLog.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		348DF6F62467A88100786A3E /* WXCommKeychain.m in Sources */ = {isa = PBXBuildFile; fileRef = 348DF5EE2467A88000786A3E /* WXCommKeychain.m */; };
-		348DF6F72467A88100786A3E /* WXCommKeychain.h in Headers */ = {isa = PBXBuildFile; fileRef = 348DF5EF2467A88000786A3E /* WXCommKeychain.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		348DF6F82467A88100786A3E /* WXCommReport.h in Headers */ = {isa = PBXBuildFile; fileRef = 348DF5F12467A88000786A3E /* WXCommReport.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		348DF6F92467A88100786A3E /* WXCommShare.h in Headers */ = {isa = PBXBuildFile; fileRef = 348DF5F22467A88000786A3E /* WXCommShare.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		348DF6FB2467A88100786A3E /* WXCommLang.m in Sources */ = {isa = PBXBuildFile; fileRef = 348DF5F42467A88000786A3E /* WXCommLang.m */; };
 		348DF6FC2467A88100786A3E /* WXiOSCommonUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = 348DF5F52467A88000786A3E /* WXiOSCommonUtils.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		348DF6FD2467A88100786A3E /* WXCommFeedback.h in Headers */ = {isa = PBXBuildFile; fileRef = 348DF5F62467A88000786A3E /* WXCommFeedback.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		348DF6FE2467A88100786A3E /* WXCommAppInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 348DF5F72467A88000786A3E /* WXCommAppInfo.m */; };
-		348DF6FF2467A88100786A3E /* WXCommPassportInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = 348DF5F82467A88000786A3E /* WXCommPassportInfo.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		348DF7002467A88100786A3E /* WXCommProductInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 348DF5F92467A88000786A3E /* WXCommProductInfo.m */; };
-		348DF7022467A88100786A3E /* WXCommShare.m in Sources */ = {isa = PBXBuildFile; fileRef = 348DF5FB2467A88000786A3E /* WXCommShare.m */; };
-		348DF7032467A88100786A3E /* WXCommDefine.h in Headers */ = {isa = PBXBuildFile; fileRef = 348DF5FC2467A88000786A3E /* WXCommDefine.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		348DF7042467A88100786A3E /* WXCommReport.m in Sources */ = {isa = PBXBuildFile; fileRef = 348DF5FD2467A88000786A3E /* WXCommReport.m */; };
-		348DF7052467A88100786A3E /* WXCommAppInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = 348DF5FE2467A88000786A3E /* WXCommAppInfo.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		348DF7062467A88100786A3E /* WXCommFeedback.m in Sources */ = {isa = PBXBuildFile; fileRef = 348DF5FF2467A88000786A3E /* WXCommFeedback.m */; };
 		348DF7072467A88100786A3E /* WXiOSCommonUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 348DF6002467A88000786A3E /* WXiOSCommonUtils.m */; };
-		348DF7082467A88100786A3E /* WXCommLang.h in Headers */ = {isa = PBXBuildFile; fileRef = 348DF6012467A88000786A3E /* WXCommLang.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		348DF7092467A88100786A3E /* WXCommProductInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = 348DF6022467A88000786A3E /* WXCommProductInfo.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		348DF70A2467A88100786A3E /* WXCommPassportInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 348DF6032467A88000786A3E /* WXCommPassportInfo.m */; };
-		348DF70B2467A88100786A3E /* WXCommTools.h in Headers */ = {isa = PBXBuildFile; fileRef = 348DF6052467A88000786A3E /* WXCommTools.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		348DF70C2467A88100786A3E /* WXCommTools.m in Sources */ = {isa = PBXBuildFile; fileRef = 348DF6062467A88000786A3E /* WXCommTools.m */; };
-		348DF70D2467A88100786A3E /* WXAlertView.h in Headers */ = {isa = PBXBuildFile; fileRef = 348DF6092467A88000786A3E /* WXAlertView.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		348DF70E2467A88100786A3E /* WXTimerAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = 348DF60A2467A88000786A3E /* WXTimerAlertView.m */; };
-		348DF70F2467A88100786A3E /* WXAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = 348DF60B2467A88000786A3E /* WXAlertView.m */; };
-		348DF7102467A88100786A3E /* WXTimerAlertView.h in Headers */ = {isa = PBXBuildFile; fileRef = 348DF60C2467A88000786A3E /* WXTimerAlertView.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		348DF7112467A88100786A3E /* WXAppSysShareController.h in Headers */ = {isa = PBXBuildFile; fileRef = 348DF60E2467A88000786A3E /* WXAppSysShareController.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		348DF7132467A88100786A3E /* WXCommShareMetaData.h in Headers */ = {isa = PBXBuildFile; fileRef = 348DF6102467A88000786A3E /* WXCommShareMetaData.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		348DF7152467A88100786A3E /* WXAppSysShareController.m in Sources */ = {isa = PBXBuildFile; fileRef = 348DF6122467A88000786A3E /* WXAppSysShareController.m */; };
-		348DF7162467A88100786A3E /* WXCommShareMetaData.m in Sources */ = {isa = PBXBuildFile; fileRef = 348DF6132467A88000786A3E /* WXCommShareMetaData.m */; };
-		348DF71F2467A88100786A3E /* NSString+WXExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 348DF61E2467A88000786A3E /* NSString+WXExtension.m */; };
-		348DF7202467A88100786A3E /* UILabel+Gradient.h in Headers */ = {isa = PBXBuildFile; fileRef = 348DF61F2467A88000786A3E /* UILabel+Gradient.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		348DF7212467A88100786A3E /* UIFont+WXExtention.m in Sources */ = {isa = PBXBuildFile; fileRef = 348DF6202467A88000786A3E /* UIFont+WXExtention.m */; };
-		348DF7222467A88100786A3E /* NSDate+WXExtension.h in Headers */ = {isa = PBXBuildFile; fileRef = 348DF6212467A88000786A3E /* NSDate+WXExtension.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		348DF7232467A88100786A3E /* UIImage+WXExtension.h in Headers */ = {isa = PBXBuildFile; fileRef = 348DF6222467A88000786A3E /* UIImage+WXExtension.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		348DF7242467A88100786A3E /* UIView+WXExtention.m in Sources */ = {isa = PBXBuildFile; fileRef = 348DF6232467A88000786A3E /* UIView+WXExtention.m */; };
-		348DF7252467A88100786A3E /* UIButton+imageTextEdgeInsets.h in Headers */ = {isa = PBXBuildFile; fileRef = 348DF6242467A88000786A3E /* UIButton+imageTextEdgeInsets.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		348DF7262467A88100786A3E /* UIImageView+WXAnimated.m in Sources */ = {isa = PBXBuildFile; fileRef = 348DF6252467A88000786A3E /* UIImageView+WXAnimated.m */; };
-		348DF7272467A88100786A3E /* UIButton+WXEdgeExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 348DF6262467A88000786A3E /* UIButton+WXEdgeExtension.m */; };
-		348DF7282467A88100786A3E /* UILabel+Gradient.m in Sources */ = {isa = PBXBuildFile; fileRef = 348DF6272467A88000786A3E /* UILabel+Gradient.m */; };
-		348DF7292467A88100786A3E /* NSString+WXExtension.h in Headers */ = {isa = PBXBuildFile; fileRef = 348DF6282467A88000786A3E /* NSString+WXExtension.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		348DF72A2467A88100786A3E /* UIImage+WXExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 348DF6292467A88000786A3E /* UIImage+WXExtension.m */; };
-		348DF72B2467A88100786A3E /* UIView+WXExtention.h in Headers */ = {isa = PBXBuildFile; fileRef = 348DF62A2467A88000786A3E /* UIView+WXExtention.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		348DF72C2467A88100786A3E /* NSDate+WXExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 348DF62B2467A88000786A3E /* NSDate+WXExtension.m */; };
-		348DF72D2467A88100786A3E /* UIFont+WXExtention.h in Headers */ = {isa = PBXBuildFile; fileRef = 348DF62C2467A88000786A3E /* UIFont+WXExtention.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		348DF72E2467A88100786A3E /* UIButton+imageTextEdgeInsets.m in Sources */ = {isa = PBXBuildFile; fileRef = 348DF62D2467A88000786A3E /* UIButton+imageTextEdgeInsets.m */; };
-		348DF72F2467A88100786A3E /* UIButton+WXEdgeExtension.h in Headers */ = {isa = PBXBuildFile; fileRef = 348DF62E2467A88000786A3E /* UIButton+WXEdgeExtension.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		348DF7302467A88100786A3E /* UIImageView+WXAnimated.h in Headers */ = {isa = PBXBuildFile; fileRef = 348DF62F2467A88000786A3E /* UIImageView+WXAnimated.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		348DF7312467A88100786A3E /* NSObject+WXCoding.m in Sources */ = {isa = PBXBuildFile; fileRef = 348DF6312467A88000786A3E /* NSObject+WXCoding.m */; };
-		348DF7322467A88100786A3E /* NSObject+WXCoding.h in Headers */ = {isa = PBXBuildFile; fileRef = 348DF6322467A88000786A3E /* NSObject+WXCoding.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		348DF7332467A88100786A3E /* DES.m in Sources */ = {isa = PBXBuildFile; fileRef = 348DF63A2467A88000786A3E /* DES.m */; };
 		348DF7342467A88100786A3E /* DES.h in Headers */ = {isa = PBXBuildFile; fileRef = 348DF63B2467A88000786A3E /* DES.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		348DF7352467A88100786A3E /* NBPhoneNumber.h in Headers */ = {isa = PBXBuildFile; fileRef = 348DF6402467A88000786A3E /* NBPhoneNumber.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		348DF7362467A88100786A3E /* NBAsYouTypeFormatter.m in Sources */ = {isa = PBXBuildFile; fileRef = 348DF6412467A88000786A3E /* NBAsYouTypeFormatter.m */; };
-		348DF7372467A88100786A3E /* NBPhoneMetaData.m in Sources */ = {isa = PBXBuildFile; fileRef = 348DF6422467A88000786A3E /* NBPhoneMetaData.m */; };
-		348DF7382467A88100786A3E /* NBPhoneNumberUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 348DF6432467A88000786A3E /* NBPhoneNumberUtil.m */; };
-		348DF7392467A88100786A3E /* NSArray+NBAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 348DF6442467A88000786A3E /* NSArray+NBAdditions.m */; };
-		348DF73A2467A88100786A3E /* NBMetadataHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = 348DF6452467A88000786A3E /* NBMetadataHelper.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		348DF73B2467A88100786A3E /* NBPhoneNumberDefines.h in Headers */ = {isa = PBXBuildFile; fileRef = 348DF6462467A88000786A3E /* NBPhoneNumberDefines.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		348DF73C2467A88100786A3E /* NBRegExMatcher.h in Headers */ = {isa = PBXBuildFile; fileRef = 348DF6482467A88000786A3E /* NBRegExMatcher.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		348DF73D2467A88100786A3E /* NBRegularExpressionCache.h in Headers */ = {isa = PBXBuildFile; fileRef = 348DF6492467A88000786A3E /* NBRegularExpressionCache.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		348DF73E2467A88100786A3E /* NBRegExMatcher.m in Sources */ = {isa = PBXBuildFile; fileRef = 348DF64A2467A88000786A3E /* NBRegExMatcher.m */; };
-		348DF73F2467A88100786A3E /* NBRegularExpressionCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 348DF64B2467A88000786A3E /* NBRegularExpressionCache.m */; };
-		348DF7402467A88100786A3E /* GeneratePhoneNumberHeader.sh in Resources */ = {isa = PBXBuildFile; fileRef = 348DF64C2467A88000786A3E /* GeneratePhoneNumberHeader.sh */; };
-		348DF7412467A88100786A3E /* NBNumberFormat.m in Sources */ = {isa = PBXBuildFile; fileRef = 348DF64D2467A88000786A3E /* NBNumberFormat.m */; };
-		348DF7422467A88100786A3E /* NBPhoneNumberDesc.h in Headers */ = {isa = PBXBuildFile; fileRef = 348DF64E2467A88000786A3E /* NBPhoneNumberDesc.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		348DF7432467A88100786A3E /* NBPhoneNumberUtil+ShortNumber.m in Sources */ = {isa = PBXBuildFile; fileRef = 348DF64F2467A88000786A3E /* NBPhoneNumberUtil+ShortNumber.m */; };
-		348DF7442467A88100786A3E /* NBAsYouTypeFormatter.h in Headers */ = {isa = PBXBuildFile; fileRef = 348DF6502467A88000786A3E /* NBAsYouTypeFormatter.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		348DF7452467A88100786A3E /* NBPhoneNumber.m in Sources */ = {isa = PBXBuildFile; fileRef = 348DF6512467A88000786A3E /* NBPhoneNumber.m */; };
-		348DF7462467A88100786A3E /* NBPhoneMetaData.h in Headers */ = {isa = PBXBuildFile; fileRef = 348DF6522467A88000786A3E /* NBPhoneMetaData.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		348DF7472467A88100786A3E /* NBMetadataHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 348DF6532467A88000786A3E /* NBMetadataHelper.m */; };
-		348DF7482467A88100786A3E /* NSArray+NBAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 348DF6542467A88000786A3E /* NSArray+NBAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		348DF7492467A88100786A3E /* NBPhoneNumberUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = 348DF6552467A88000786A3E /* NBPhoneNumberUtil.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		348DF74A2467A88100786A3E /* NBPhoneNumberMetadata.plist in Resources */ = {isa = PBXBuildFile; fileRef = 348DF6562467A88000786A3E /* NBPhoneNumberMetadata.plist */; };
-		348DF74B2467A88100786A3E /* NBGeneratedPhoneNumberMetaData.h in Headers */ = {isa = PBXBuildFile; fileRef = 348DF6572467A88000786A3E /* NBGeneratedPhoneNumberMetaData.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		348DF74C2467A88100786A3E /* NBPhoneNumberUtil+ShortNumber.h in Headers */ = {isa = PBXBuildFile; fileRef = 348DF6582467A88000786A3E /* NBPhoneNumberUtil+ShortNumber.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		348DF74D2467A88100786A3E /* NBPhoneNumberDesc.m in Sources */ = {isa = PBXBuildFile; fileRef = 348DF6592467A88000786A3E /* NBPhoneNumberDesc.m */; };
-		348DF74E2467A88100786A3E /* NBNumberFormat.h in Headers */ = {isa = PBXBuildFile; fileRef = 348DF65A2467A88000786A3E /* NBNumberFormat.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		348DF74F2467A88100786A3E /* NBPhoneNumberDefines.m in Sources */ = {isa = PBXBuildFile; fileRef = 348DF65B2467A88000786A3E /* NBPhoneNumberDefines.m */; };
 		348DF7502467A88100786A3E /* ZipArchive.h in Headers */ = {isa = PBXBuildFile; fileRef = 348DF65D2467A88000786A3E /* ZipArchive.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		348DF7512467A88100786A3E /* unzip.c in Sources */ = {isa = PBXBuildFile; fileRef = 348DF65F2467A88000786A3E /* unzip.c */; };
 		348DF7522467A88100786A3E /* zip.c in Sources */ = {isa = PBXBuildFile; fileRef = 348DF6602467A88000786A3E /* zip.c */; };
@@ -178,36 +102,86 @@
 		348DF76E2467A88100786A3E /* sha1.h in Headers */ = {isa = PBXBuildFile; fileRef = 348DF67D2467A88000786A3E /* sha1.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		348DF76F2467A88100786A3E /* fileenc.h in Headers */ = {isa = PBXBuildFile; fileRef = 348DF67E2467A88000786A3E /* fileenc.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		348DF7702467A88100786A3E /* entropy.c in Sources */ = {isa = PBXBuildFile; fileRef = 348DF67F2467A88000786A3E /* entropy.c */; };
-		348DF7732467A88100786A3E /* WXAccountWebBridge.m in Sources */ = {isa = PBXBuildFile; fileRef = 348DF6852467A88000786A3E /* WXAccountWebBridge.m */; };
-		348DF7742467A88100786A3E /* WXAccountTools.h in Headers */ = {isa = PBXBuildFile; fileRef = 348DF6862467A88000786A3E /* WXAccountTools.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		348DF7762467A88100786A3E /* WXAccountWebBridge.h in Headers */ = {isa = PBXBuildFile; fileRef = 348DF6882467A88000786A3E /* WXAccountWebBridge.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		348DF7832467A88100786A3E /* WXAccountTools.m in Sources */ = {isa = PBXBuildFile; fileRef = 348DF69A2467A88000786A3E /* WXAccountTools.m */; };
-		348DF7882467A88100786A3E /* WXDataBaseManage.m in Sources */ = {isa = PBXBuildFile; fileRef = 348DF6A12467A88000786A3E /* WXDataBaseManage.m */; };
-		348DF7892467A88100786A3E /* WXDataBaseManage.h in Headers */ = {isa = PBXBuildFile; fileRef = 348DF6A22467A88000786A3E /* WXDataBaseManage.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		348DF7972467A88100786A3E /* WXAnimatedImageUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = 348DF6B32467A88000786A3E /* WXAnimatedImageUtil.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		348DF7982467A88100786A3E /* WXAnimatedImageUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 348DF6B42467A88000786A3E /* WXAnimatedImageUtil.m */; };
 		348DF7992467A88100786A3E /* CommiOSProductsJson.json in Resources */ = {isa = PBXBuildFile; fileRef = 348DF6B62467A88000786A3E /* CommiOSProductsJson.json */; };
-		348DF79A2467A88100786A3E /* CommPassportHeader.h in Headers */ = {isa = PBXBuildFile; fileRef = 348DF6B82467A88000786A3E /* CommPassportHeader.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		348DF79B2467A88100786A3E /* WXAutoCheckUpdate.m in Sources */ = {isa = PBXBuildFile; fileRef = 348DF6BA2467A88000786A3E /* WXAutoCheckUpdate.m */; };
-		348DF79C2467A88100786A3E /* WXAutoCheckUpdate.h in Headers */ = {isa = PBXBuildFile; fileRef = 348DF6BB2467A88000786A3E /* WXAutoCheckUpdate.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		348DF79E2467A88100786A3E /* WXAppTools.m in Sources */ = {isa = PBXBuildFile; fileRef = 348DF6BE2467A88000786A3E /* WXAppTools.m */; };
-		348DF79F2467A88100786A3E /* WXCommSettings.m in Sources */ = {isa = PBXBuildFile; fileRef = 348DF6BF2467A88000786A3E /* WXCommSettings.m */; };
-		348DF7A02467A88100786A3E /* WXCommSettings.h in Headers */ = {isa = PBXBuildFile; fileRef = 348DF6C02467A88000786A3E /* WXCommSettings.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		348DF7A12467A88100786A3E /* WXAppTools.h in Headers */ = {isa = PBXBuildFile; fileRef = 348DF6C12467A88000786A3E /* WXAppTools.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		348DF7A22467A88100786A3E /* WXCommDevice.m in Sources */ = {isa = PBXBuildFile; fileRef = 348DF6C32467A88000786A3E /* WXCommDevice.m */; };
-		348DF7A32467A88100786A3E /* WXCommDevice.h in Headers */ = {isa = PBXBuildFile; fileRef = 348DF6C42467A88000786A3E /* WXCommDevice.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		348DF7A42467A88100786A3E /* WXCommInterface.m in Sources */ = {isa = PBXBuildFile; fileRef = 348DF6C62467A88000786A3E /* WXCommInterface.m */; };
-		348DF7A52467A88100786A3E /* WXEasyHttp.h in Headers */ = {isa = PBXBuildFile; fileRef = 348DF6C72467A88000786A3E /* WXEasyHttp.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		348DF7A62467A88100786A3E /* WXCloudUploadAuthEntity.m in Sources */ = {isa = PBXBuildFile; fileRef = 348DF6C82467A88000786A3E /* WXCloudUploadAuthEntity.m */; };
-		348DF7A72467A88100786A3E /* WXAFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 348DF6C92467A88000786A3E /* WXAFNetworking.m */; };
-		348DF7A82467A88100786A3E /* WXEasyHttp.m in Sources */ = {isa = PBXBuildFile; fileRef = 348DF6CA2467A88000786A3E /* WXEasyHttp.m */; };
-		348DF7A92467A88100786A3E /* WXCommInterface.h in Headers */ = {isa = PBXBuildFile; fileRef = 348DF6CB2467A88000786A3E /* WXCommInterface.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		348DF7AA2467A88100786A3E /* WXAFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 348DF6CC2467A88000786A3E /* WXAFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		348DF7AB2467A88100786A3E /* WXCloudUploadAuthEntity.h in Headers */ = {isa = PBXBuildFile; fileRef = 348DF6CD2467A88000786A3E /* WXCloudUploadAuthEntity.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		348DF7AC2467A88100786A3E /* WXUserDefaultKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 348DF6CF2467A88000786A3E /* WXUserDefaultKit.m */; };
-		348DF7AD2467A88100786A3E /* WXUserDefaultKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 348DF6D02467A88000786A3E /* WXUserDefaultKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		348DF7AF2467A9B600786A3E /* WXiOSCommonUtils-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 348DF7AE2467A9B600786A3E /* WXiOSCommonUtils-Info.plist */; };
 		348DF7B02467AE2600786A3E /* YYCache.h in Headers */ = {isa = PBXBuildFile; fileRef = D80AB569207ECBDFBFD8263E27944BAF /* YYCache.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		348DF7FE246924A500786A3E /* NSObject+WXCoding.m in Sources */ = {isa = PBXBuildFile; fileRef = 348DF7B2246924A500786A3E /* NSObject+WXCoding.m */; };
+		348DF7FF246924A500786A3E /* WXCommReport.h in Headers */ = {isa = PBXBuildFile; fileRef = 348DF7B3246924A500786A3E /* WXCommReport.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		348DF800246924A500786A3E /* WXAppSysShareController.h in Headers */ = {isa = PBXBuildFile; fileRef = 348DF7B4246924A500786A3E /* WXAppSysShareController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		348DF801246924A500786A3E /* NSString+WXExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 348DF7B5246924A500786A3E /* NSString+WXExtension.m */; };
+		348DF802246924A500786A3E /* WXCommInterface.m in Sources */ = {isa = PBXBuildFile; fileRef = 348DF7B6246924A500786A3E /* WXCommInterface.m */; };
+		348DF803246924A500786A3E /* WXCommDevice.m in Sources */ = {isa = PBXBuildFile; fileRef = 348DF7B7246924A500786A3E /* WXCommDevice.m */; };
+		348DF804246924A500786A3E /* WXCommTools.h in Headers */ = {isa = PBXBuildFile; fileRef = 348DF7B8246924A500786A3E /* WXCommTools.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		348DF805246924A500786A3E /* WXCommKeychain.m in Sources */ = {isa = PBXBuildFile; fileRef = 348DF7B9246924A500786A3E /* WXCommKeychain.m */; };
+		348DF806246924A500786A3E /* UILabel+Gradient.h in Headers */ = {isa = PBXBuildFile; fileRef = 348DF7BA246924A500786A3E /* UILabel+Gradient.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		348DF807246924A500786A3E /* WXCommShare.h in Headers */ = {isa = PBXBuildFile; fileRef = 348DF7BB246924A500786A3E /* WXCommShare.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		348DF808246924A500786A3E /* WXEasyHttp.h in Headers */ = {isa = PBXBuildFile; fileRef = 348DF7BC246924A500786A3E /* WXEasyHttp.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		348DF809246924A500786A3E /* UIFont+WXExtention.m in Sources */ = {isa = PBXBuildFile; fileRef = 348DF7BD246924A500786A3E /* UIFont+WXExtention.m */; };
+		348DF80A246924A500786A3E /* WXUserDefaultKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 348DF7BE246924A500786A3E /* WXUserDefaultKit.m */; };
+		348DF80B246924A500786A3E /* NSDate+WXExtension.h in Headers */ = {isa = PBXBuildFile; fileRef = 348DF7BF246924A500786A3E /* NSDate+WXExtension.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		348DF80C246924A500786A3E /* WXCommLang.m in Sources */ = {isa = PBXBuildFile; fileRef = 348DF7C0246924A500786A3E /* WXCommLang.m */; };
+		348DF80D246924A500786A3E /* WXDataBaseManage.m in Sources */ = {isa = PBXBuildFile; fileRef = 348DF7C1246924A500786A3E /* WXDataBaseManage.m */; };
+		348DF80E246924A500786A3E /* WXCloudUploadAuthEntity.m in Sources */ = {isa = PBXBuildFile; fileRef = 348DF7C2246924A500786A3E /* WXCloudUploadAuthEntity.m */; };
+		348DF80F246924A500786A3E /* UIImage+WXExtension.h in Headers */ = {isa = PBXBuildFile; fileRef = 348DF7C3246924A500786A3E /* UIImage+WXExtension.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		348DF810246924A500786A3E /* UIView+WXExtention.m in Sources */ = {isa = PBXBuildFile; fileRef = 348DF7C4246924A500786A3E /* UIView+WXExtention.m */; };
+		348DF811246924A500786A3E /* WXCommFeedback.h in Headers */ = {isa = PBXBuildFile; fileRef = 348DF7C5246924A500786A3E /* WXCommFeedback.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		348DF812246924A500786A3E /* WXAFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 348DF7C6246924A500786A3E /* WXAFNetworking.m */; };
+		348DF813246924A500786A3E /* WXAccountWebBridge.m in Sources */ = {isa = PBXBuildFile; fileRef = 348DF7C7246924A500786A3E /* WXAccountWebBridge.m */; };
+		348DF814246924A500786A3E /* WXCommLog.m in Sources */ = {isa = PBXBuildFile; fileRef = 348DF7C8246924A500786A3E /* WXCommLog.m */; };
+		348DF815246924A500786A3E /* WXCommAppInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 348DF7C9246924A500786A3E /* WXCommAppInfo.m */; };
+		348DF816246924A500786A3E /* WXAnimatedImageUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = 348DF7CA246924A500786A3E /* WXAnimatedImageUtil.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		348DF817246924A500786A3E /* WXAppTools.m in Sources */ = {isa = PBXBuildFile; fileRef = 348DF7CB246924A500786A3E /* WXAppTools.m */; };
+		348DF818246924A500786A3E /* WXAccountTools.h in Headers */ = {isa = PBXBuildFile; fileRef = 348DF7CC246924A500786A3E /* WXAccountTools.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		348DF819246924A500786A3E /* WXCommPassportInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = 348DF7CD246924A500786A3E /* WXCommPassportInfo.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		348DF81A246924A500786A3E /* WXAlertView.h in Headers */ = {isa = PBXBuildFile; fileRef = 348DF7CE246924A500786A3E /* WXAlertView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		348DF81B246924A500786A3E /* WXAutoCheckUpdate.m in Sources */ = {isa = PBXBuildFile; fileRef = 348DF7CF246924A500786A3E /* WXAutoCheckUpdate.m */; };
+		348DF81C246924A500786A3E /* UIButton+imageTextEdgeInsets.h in Headers */ = {isa = PBXBuildFile; fileRef = 348DF7D0246924A500786A3E /* UIButton+imageTextEdgeInsets.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		348DF81D246924A500786A3E /* WXCommSettings.m in Sources */ = {isa = PBXBuildFile; fileRef = 348DF7D1246924A500786A3E /* WXCommSettings.m */; };
+		348DF81E246924A500786A3E /* WXCommProductInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 348DF7D2246924A500786A3E /* WXCommProductInfo.m */; };
+		348DF81F246924A500786A3E /* UIImageView+WXAnimated.m in Sources */ = {isa = PBXBuildFile; fileRef = 348DF7D3246924A500786A3E /* UIImageView+WXAnimated.m */; };
+		348DF820246924A500786A3E /* WXTimerAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = 348DF7D4246924A500786A3E /* WXTimerAlertView.m */; };
+		348DF821246924A500786A3E /* WXCommShareMetaData.h in Headers */ = {isa = PBXBuildFile; fileRef = 348DF7D5246924A500786A3E /* WXCommShareMetaData.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		348DF822246924A500786A3E /* UIButton+WXEdgeExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 348DF7D6246924A500786A3E /* UIButton+WXEdgeExtension.m */; };
+		348DF823246924A500786A3E /* WXEasyHttp.m in Sources */ = {isa = PBXBuildFile; fileRef = 348DF7D7246924A500786A3E /* WXEasyHttp.m */; };
+		348DF824246924A500786A3E /* WXCommShare.m in Sources */ = {isa = PBXBuildFile; fileRef = 348DF7D8246924A500786A3E /* WXCommShare.m */; };
+		348DF825246924A500786A3E /* UILabel+Gradient.m in Sources */ = {isa = PBXBuildFile; fileRef = 348DF7D9246924A500786A3E /* UILabel+Gradient.m */; };
+		348DF826246924A500786A3E /* WXCommKeychain.h in Headers */ = {isa = PBXBuildFile; fileRef = 348DF7DA246924A500786A3E /* WXCommKeychain.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		348DF827246924A500786A3E /* WXCommTools.m in Sources */ = {isa = PBXBuildFile; fileRef = 348DF7DB246924A500786A3E /* WXCommTools.m */; };
+		348DF828246924A500786A3E /* WXCommDevice.h in Headers */ = {isa = PBXBuildFile; fileRef = 348DF7DC246924A500786A3E /* WXCommDevice.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		348DF829246924A500786A3E /* WXAppSysShareController.m in Sources */ = {isa = PBXBuildFile; fileRef = 348DF7DD246924A500786A3E /* WXAppSysShareController.m */; };
+		348DF82A246924A500786A3E /* WXCommInterface.h in Headers */ = {isa = PBXBuildFile; fileRef = 348DF7DE246924A500786A3E /* WXCommInterface.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		348DF82B246924A500786A3E /* NSString+WXExtension.h in Headers */ = {isa = PBXBuildFile; fileRef = 348DF7DF246924A500786A3E /* NSString+WXExtension.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		348DF82C246924A600786A3E /* WXCommDefine.h in Headers */ = {isa = PBXBuildFile; fileRef = 348DF7E0246924A500786A3E /* WXCommDefine.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		348DF82D246924A600786A3E /* WXCommReport.m in Sources */ = {isa = PBXBuildFile; fileRef = 348DF7E1246924A500786A3E /* WXCommReport.m */; };
+		348DF82E246924A600786A3E /* NSObject+WXCoding.h in Headers */ = {isa = PBXBuildFile; fileRef = 348DF7E2246924A500786A3E /* NSObject+WXCoding.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		348DF82F246924A600786A3E /* WXCommAppInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = 348DF7E3246924A500786A3E /* WXCommAppInfo.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		348DF830246924A600786A3E /* WXAnimatedImageUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 348DF7E4246924A500786A3E /* WXAnimatedImageUtil.m */; };
+		348DF831246924A600786A3E /* WXAccountWebBridge.h in Headers */ = {isa = PBXBuildFile; fileRef = 348DF7E5246924A500786A3E /* WXAccountWebBridge.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		348DF832246924A600786A3E /* WXCommLog.h in Headers */ = {isa = PBXBuildFile; fileRef = 348DF7E6246924A500786A3E /* WXCommLog.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		348DF833246924A600786A3E /* WXAFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 348DF7E7246924A500786A3E /* WXAFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		348DF834246924A600786A3E /* WXCommFeedback.m in Sources */ = {isa = PBXBuildFile; fileRef = 348DF7E8246924A500786A3E /* WXCommFeedback.m */; };
+		348DF835246924A600786A3E /* UIImage+WXExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 348DF7E9246924A500786A3E /* UIImage+WXExtension.m */; };
+		348DF836246924A600786A3E /* UIView+WXExtention.h in Headers */ = {isa = PBXBuildFile; fileRef = 348DF7EA246924A500786A3E /* UIView+WXExtention.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		348DF837246924A600786A3E /* WXDataBaseManage.h in Headers */ = {isa = PBXBuildFile; fileRef = 348DF7EB246924A500786A3E /* WXDataBaseManage.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		348DF838246924A600786A3E /* WXCloudUploadAuthEntity.h in Headers */ = {isa = PBXBuildFile; fileRef = 348DF7EC246924A500786A3E /* WXCloudUploadAuthEntity.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		348DF839246924A600786A3E /* WXCommLang.h in Headers */ = {isa = PBXBuildFile; fileRef = 348DF7ED246924A500786A3E /* WXCommLang.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		348DF83A246924A600786A3E /* NSDate+WXExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 348DF7EE246924A500786A3E /* NSDate+WXExtension.m */; };
+		348DF83B246924A600786A3E /* WXUserDefaultKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 348DF7EF246924A500786A3E /* WXUserDefaultKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		348DF83C246924A600786A3E /* UIFont+WXExtention.h in Headers */ = {isa = PBXBuildFile; fileRef = 348DF7F0246924A500786A3E /* UIFont+WXExtention.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		348DF83D246924A600786A3E /* WXCommProductInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = 348DF7F1246924A500786A3E /* WXCommProductInfo.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		348DF83E246924A600786A3E /* UIButton+imageTextEdgeInsets.m in Sources */ = {isa = PBXBuildFile; fileRef = 348DF7F2246924A500786A3E /* UIButton+imageTextEdgeInsets.m */; };
+		348DF83F246924A600786A3E /* WXCommSettings.h in Headers */ = {isa = PBXBuildFile; fileRef = 348DF7F3246924A500786A3E /* WXCommSettings.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		348DF840246924A600786A3E /* WXAutoCheckUpdate.h in Headers */ = {isa = PBXBuildFile; fileRef = 348DF7F4246924A500786A3E /* WXAutoCheckUpdate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		348DF841246924A600786A3E /* CommPassportHeader.h in Headers */ = {isa = PBXBuildFile; fileRef = 348DF7F5246924A500786A3E /* CommPassportHeader.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		348DF842246924A600786A3E /* WXAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = 348DF7F6246924A500786A3E /* WXAlertView.m */; };
+		348DF843246924A600786A3E /* WXCommPassportInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 348DF7F7246924A500786A3E /* WXCommPassportInfo.m */; };
+		348DF844246924A600786A3E /* WXAccountTools.m in Sources */ = {isa = PBXBuildFile; fileRef = 348DF7F8246924A500786A3E /* WXAccountTools.m */; };
+		348DF845246924A600786A3E /* WXAppTools.h in Headers */ = {isa = PBXBuildFile; fileRef = 348DF7F9246924A500786A3E /* WXAppTools.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		348DF846246924A600786A3E /* UIButton+WXEdgeExtension.h in Headers */ = {isa = PBXBuildFile; fileRef = 348DF7FA246924A500786A3E /* UIButton+WXEdgeExtension.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		348DF847246924A600786A3E /* WXCommShareMetaData.m in Sources */ = {isa = PBXBuildFile; fileRef = 348DF7FB246924A500786A3E /* WXCommShareMetaData.m */; };
+		348DF848246924A600786A3E /* WXTimerAlertView.h in Headers */ = {isa = PBXBuildFile; fileRef = 348DF7FC246924A500786A3E /* WXTimerAlertView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		348DF849246924A600786A3E /* UIImageView+WXAnimated.h in Headers */ = {isa = PBXBuildFile; fileRef = 348DF7FD246924A500786A3E /* UIImageView+WXAnimated.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		348DF84B24693BA400786A3E /* CryptoKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 348DF84A24693BA400786A3E /* CryptoKit.framework */; };
 		34A7C5747B4C0825465453E196E57FAA /* UIButton+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 84F0E04AEB7FF72AFDE6FA6056A196E1 /* UIButton+AFNetworking.m */; };
 		3704F0E34A19E70FFF7430BD4841130B /* YYFrameImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 62B6EF2486DAC74E872CADD74986CD48 /* YYFrameImage.m */; };
 		3A186F3A7711FAAB8C60562D63FF0D9F /* UIProgressView+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B97C2133CC29EB8B9758B6A3407F6EB /* UIProgressView+AFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -420,86 +394,10 @@
 		348DF5E52467A88000786A3E /* user@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "user@3x.png"; sourceTree = "<group>"; };
 		348DF5E62467A88000786A3E /* user@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "user@2x.png"; sourceTree = "<group>"; };
 		348DF5E72467A88000786A3E /* countryCodesEN.plist */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = countryCodesEN.plist; sourceTree = "<group>"; };
-		348DF5EB2467A88000786A3E /* WXCommLog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WXCommLog.m; sourceTree = "<group>"; };
-		348DF5EC2467A88000786A3E /* WXCommLog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXCommLog.h; sourceTree = "<group>"; };
-		348DF5EE2467A88000786A3E /* WXCommKeychain.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WXCommKeychain.m; sourceTree = "<group>"; };
-		348DF5EF2467A88000786A3E /* WXCommKeychain.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXCommKeychain.h; sourceTree = "<group>"; };
-		348DF5F12467A88000786A3E /* WXCommReport.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXCommReport.h; sourceTree = "<group>"; };
-		348DF5F22467A88000786A3E /* WXCommShare.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXCommShare.h; sourceTree = "<group>"; };
-		348DF5F42467A88000786A3E /* WXCommLang.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WXCommLang.m; sourceTree = "<group>"; };
 		348DF5F52467A88000786A3E /* WXiOSCommonUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXiOSCommonUtils.h; sourceTree = "<group>"; };
-		348DF5F62467A88000786A3E /* WXCommFeedback.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXCommFeedback.h; sourceTree = "<group>"; };
-		348DF5F72467A88000786A3E /* WXCommAppInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WXCommAppInfo.m; sourceTree = "<group>"; };
-		348DF5F82467A88000786A3E /* WXCommPassportInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXCommPassportInfo.h; sourceTree = "<group>"; };
-		348DF5F92467A88000786A3E /* WXCommProductInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WXCommProductInfo.m; sourceTree = "<group>"; };
-		348DF5FB2467A88000786A3E /* WXCommShare.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WXCommShare.m; sourceTree = "<group>"; };
-		348DF5FC2467A88000786A3E /* WXCommDefine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXCommDefine.h; sourceTree = "<group>"; };
-		348DF5FD2467A88000786A3E /* WXCommReport.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WXCommReport.m; sourceTree = "<group>"; };
-		348DF5FE2467A88000786A3E /* WXCommAppInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXCommAppInfo.h; sourceTree = "<group>"; };
-		348DF5FF2467A88000786A3E /* WXCommFeedback.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WXCommFeedback.m; sourceTree = "<group>"; };
 		348DF6002467A88000786A3E /* WXiOSCommonUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WXiOSCommonUtils.m; sourceTree = "<group>"; };
-		348DF6012467A88000786A3E /* WXCommLang.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXCommLang.h; sourceTree = "<group>"; };
-		348DF6022467A88000786A3E /* WXCommProductInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXCommProductInfo.h; sourceTree = "<group>"; };
-		348DF6032467A88000786A3E /* WXCommPassportInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WXCommPassportInfo.m; sourceTree = "<group>"; };
-		348DF6052467A88000786A3E /* WXCommTools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXCommTools.h; sourceTree = "<group>"; };
-		348DF6062467A88000786A3E /* WXCommTools.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WXCommTools.m; sourceTree = "<group>"; };
-		348DF6092467A88000786A3E /* WXAlertView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXAlertView.h; sourceTree = "<group>"; };
-		348DF60A2467A88000786A3E /* WXTimerAlertView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WXTimerAlertView.m; sourceTree = "<group>"; };
-		348DF60B2467A88000786A3E /* WXAlertView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WXAlertView.m; sourceTree = "<group>"; };
-		348DF60C2467A88000786A3E /* WXTimerAlertView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXTimerAlertView.h; sourceTree = "<group>"; };
-		348DF60E2467A88000786A3E /* WXAppSysShareController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXAppSysShareController.h; sourceTree = "<group>"; };
-		348DF6102467A88000786A3E /* WXCommShareMetaData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXCommShareMetaData.h; sourceTree = "<group>"; };
-		348DF6122467A88000786A3E /* WXAppSysShareController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WXAppSysShareController.m; sourceTree = "<group>"; };
-		348DF6132467A88000786A3E /* WXCommShareMetaData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WXCommShareMetaData.m; sourceTree = "<group>"; };
-		348DF61E2467A88000786A3E /* NSString+WXExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+WXExtension.m"; sourceTree = "<group>"; };
-		348DF61F2467A88000786A3E /* UILabel+Gradient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UILabel+Gradient.h"; sourceTree = "<group>"; };
-		348DF6202467A88000786A3E /* UIFont+WXExtention.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIFont+WXExtention.m"; sourceTree = "<group>"; };
-		348DF6212467A88000786A3E /* NSDate+WXExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+WXExtension.h"; sourceTree = "<group>"; };
-		348DF6222467A88000786A3E /* UIImage+WXExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+WXExtension.h"; sourceTree = "<group>"; };
-		348DF6232467A88000786A3E /* UIView+WXExtention.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+WXExtention.m"; sourceTree = "<group>"; };
-		348DF6242467A88000786A3E /* UIButton+imageTextEdgeInsets.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+imageTextEdgeInsets.h"; sourceTree = "<group>"; };
-		348DF6252467A88000786A3E /* UIImageView+WXAnimated.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+WXAnimated.m"; sourceTree = "<group>"; };
-		348DF6262467A88000786A3E /* UIButton+WXEdgeExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+WXEdgeExtension.m"; sourceTree = "<group>"; };
-		348DF6272467A88000786A3E /* UILabel+Gradient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UILabel+Gradient.m"; sourceTree = "<group>"; };
-		348DF6282467A88000786A3E /* NSString+WXExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+WXExtension.h"; sourceTree = "<group>"; };
-		348DF6292467A88000786A3E /* UIImage+WXExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+WXExtension.m"; sourceTree = "<group>"; };
-		348DF62A2467A88000786A3E /* UIView+WXExtention.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+WXExtention.h"; sourceTree = "<group>"; };
-		348DF62B2467A88000786A3E /* NSDate+WXExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+WXExtension.m"; sourceTree = "<group>"; };
-		348DF62C2467A88000786A3E /* UIFont+WXExtention.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIFont+WXExtention.h"; sourceTree = "<group>"; };
-		348DF62D2467A88000786A3E /* UIButton+imageTextEdgeInsets.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+imageTextEdgeInsets.m"; sourceTree = "<group>"; };
-		348DF62E2467A88000786A3E /* UIButton+WXEdgeExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+WXEdgeExtension.h"; sourceTree = "<group>"; };
-		348DF62F2467A88000786A3E /* UIImageView+WXAnimated.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+WXAnimated.h"; sourceTree = "<group>"; };
-		348DF6312467A88000786A3E /* NSObject+WXCoding.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+WXCoding.m"; sourceTree = "<group>"; };
-		348DF6322467A88000786A3E /* NSObject+WXCoding.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+WXCoding.h"; sourceTree = "<group>"; };
 		348DF63A2467A88000786A3E /* DES.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DES.m; sourceTree = "<group>"; };
 		348DF63B2467A88000786A3E /* DES.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DES.h; sourceTree = "<group>"; };
-		348DF6402467A88000786A3E /* NBPhoneNumber.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NBPhoneNumber.h; sourceTree = "<group>"; };
-		348DF6412467A88000786A3E /* NBAsYouTypeFormatter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NBAsYouTypeFormatter.m; sourceTree = "<group>"; };
-		348DF6422467A88000786A3E /* NBPhoneMetaData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NBPhoneMetaData.m; sourceTree = "<group>"; };
-		348DF6432467A88000786A3E /* NBPhoneNumberUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NBPhoneNumberUtil.m; sourceTree = "<group>"; };
-		348DF6442467A88000786A3E /* NSArray+NBAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+NBAdditions.m"; sourceTree = "<group>"; };
-		348DF6452467A88000786A3E /* NBMetadataHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NBMetadataHelper.h; sourceTree = "<group>"; };
-		348DF6462467A88000786A3E /* NBPhoneNumberDefines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NBPhoneNumberDefines.h; sourceTree = "<group>"; };
-		348DF6482467A88000786A3E /* NBRegExMatcher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NBRegExMatcher.h; sourceTree = "<group>"; };
-		348DF6492467A88000786A3E /* NBRegularExpressionCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NBRegularExpressionCache.h; sourceTree = "<group>"; };
-		348DF64A2467A88000786A3E /* NBRegExMatcher.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NBRegExMatcher.m; sourceTree = "<group>"; };
-		348DF64B2467A88000786A3E /* NBRegularExpressionCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NBRegularExpressionCache.m; sourceTree = "<group>"; };
-		348DF64C2467A88000786A3E /* GeneratePhoneNumberHeader.sh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; path = GeneratePhoneNumberHeader.sh; sourceTree = "<group>"; };
-		348DF64D2467A88000786A3E /* NBNumberFormat.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NBNumberFormat.m; sourceTree = "<group>"; };
-		348DF64E2467A88000786A3E /* NBPhoneNumberDesc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NBPhoneNumberDesc.h; sourceTree = "<group>"; };
-		348DF64F2467A88000786A3E /* NBPhoneNumberUtil+ShortNumber.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NBPhoneNumberUtil+ShortNumber.m"; sourceTree = "<group>"; };
-		348DF6502467A88000786A3E /* NBAsYouTypeFormatter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NBAsYouTypeFormatter.h; sourceTree = "<group>"; };
-		348DF6512467A88000786A3E /* NBPhoneNumber.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NBPhoneNumber.m; sourceTree = "<group>"; };
-		348DF6522467A88000786A3E /* NBPhoneMetaData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NBPhoneMetaData.h; sourceTree = "<group>"; };
-		348DF6532467A88000786A3E /* NBMetadataHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NBMetadataHelper.m; sourceTree = "<group>"; };
-		348DF6542467A88000786A3E /* NSArray+NBAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+NBAdditions.h"; sourceTree = "<group>"; };
-		348DF6552467A88000786A3E /* NBPhoneNumberUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NBPhoneNumberUtil.h; sourceTree = "<group>"; };
-		348DF6562467A88000786A3E /* NBPhoneNumberMetadata.plist */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = NBPhoneNumberMetadata.plist; sourceTree = "<group>"; };
-		348DF6572467A88000786A3E /* NBGeneratedPhoneNumberMetaData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NBGeneratedPhoneNumberMetaData.h; sourceTree = "<group>"; };
-		348DF6582467A88000786A3E /* NBPhoneNumberUtil+ShortNumber.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NBPhoneNumberUtil+ShortNumber.h"; sourceTree = "<group>"; };
-		348DF6592467A88000786A3E /* NBPhoneNumberDesc.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NBPhoneNumberDesc.m; sourceTree = "<group>"; };
-		348DF65A2467A88000786A3E /* NBNumberFormat.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NBNumberFormat.h; sourceTree = "<group>"; };
-		348DF65B2467A88000786A3E /* NBPhoneNumberDefines.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NBPhoneNumberDefines.m; sourceTree = "<group>"; };
 		348DF65D2467A88000786A3E /* ZipArchive.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZipArchive.h; sourceTree = "<group>"; };
 		348DF65F2467A88000786A3E /* unzip.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = unzip.c; sourceTree = "<group>"; };
 		348DF6602467A88000786A3E /* zip.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = zip.c; sourceTree = "<group>"; };
@@ -533,35 +431,85 @@
 		348DF67D2467A88000786A3E /* sha1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = sha1.h; sourceTree = "<group>"; };
 		348DF67E2467A88000786A3E /* fileenc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = fileenc.h; sourceTree = "<group>"; };
 		348DF67F2467A88000786A3E /* entropy.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = entropy.c; sourceTree = "<group>"; };
-		348DF6852467A88000786A3E /* WXAccountWebBridge.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WXAccountWebBridge.m; sourceTree = "<group>"; };
-		348DF6862467A88000786A3E /* WXAccountTools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXAccountTools.h; sourceTree = "<group>"; };
-		348DF6882467A88000786A3E /* WXAccountWebBridge.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXAccountWebBridge.h; sourceTree = "<group>"; };
-		348DF69A2467A88000786A3E /* WXAccountTools.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WXAccountTools.m; sourceTree = "<group>"; };
-		348DF6A12467A88000786A3E /* WXDataBaseManage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WXDataBaseManage.m; sourceTree = "<group>"; };
-		348DF6A22467A88000786A3E /* WXDataBaseManage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXDataBaseManage.h; sourceTree = "<group>"; };
-		348DF6B32467A88000786A3E /* WXAnimatedImageUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXAnimatedImageUtil.h; sourceTree = "<group>"; };
-		348DF6B42467A88000786A3E /* WXAnimatedImageUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WXAnimatedImageUtil.m; sourceTree = "<group>"; };
 		348DF6B62467A88000786A3E /* CommiOSProductsJson.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = CommiOSProductsJson.json; sourceTree = "<group>"; };
-		348DF6B82467A88000786A3E /* CommPassportHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CommPassportHeader.h; sourceTree = "<group>"; };
-		348DF6BA2467A88000786A3E /* WXAutoCheckUpdate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WXAutoCheckUpdate.m; sourceTree = "<group>"; };
-		348DF6BB2467A88000786A3E /* WXAutoCheckUpdate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXAutoCheckUpdate.h; sourceTree = "<group>"; };
-		348DF6BE2467A88000786A3E /* WXAppTools.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WXAppTools.m; sourceTree = "<group>"; };
-		348DF6BF2467A88000786A3E /* WXCommSettings.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WXCommSettings.m; sourceTree = "<group>"; };
-		348DF6C02467A88000786A3E /* WXCommSettings.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXCommSettings.h; sourceTree = "<group>"; };
-		348DF6C12467A88000786A3E /* WXAppTools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXAppTools.h; sourceTree = "<group>"; };
-		348DF6C32467A88000786A3E /* WXCommDevice.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WXCommDevice.m; sourceTree = "<group>"; };
-		348DF6C42467A88000786A3E /* WXCommDevice.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXCommDevice.h; sourceTree = "<group>"; };
-		348DF6C62467A88000786A3E /* WXCommInterface.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WXCommInterface.m; sourceTree = "<group>"; };
-		348DF6C72467A88000786A3E /* WXEasyHttp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXEasyHttp.h; sourceTree = "<group>"; };
-		348DF6C82467A88000786A3E /* WXCloudUploadAuthEntity.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WXCloudUploadAuthEntity.m; sourceTree = "<group>"; };
-		348DF6C92467A88000786A3E /* WXAFNetworking.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WXAFNetworking.m; sourceTree = "<group>"; };
-		348DF6CA2467A88000786A3E /* WXEasyHttp.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WXEasyHttp.m; sourceTree = "<group>"; };
-		348DF6CB2467A88000786A3E /* WXCommInterface.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXCommInterface.h; sourceTree = "<group>"; };
-		348DF6CC2467A88000786A3E /* WXAFNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXAFNetworking.h; sourceTree = "<group>"; };
-		348DF6CD2467A88000786A3E /* WXCloudUploadAuthEntity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXCloudUploadAuthEntity.h; sourceTree = "<group>"; };
-		348DF6CF2467A88000786A3E /* WXUserDefaultKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WXUserDefaultKit.m; sourceTree = "<group>"; };
-		348DF6D02467A88000786A3E /* WXUserDefaultKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXUserDefaultKit.h; sourceTree = "<group>"; };
 		348DF7AE2467A9B600786A3E /* WXiOSCommonUtils-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "WXiOSCommonUtils-Info.plist"; sourceTree = "<group>"; };
+		348DF7B2246924A500786A3E /* NSObject+WXCoding.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+WXCoding.m"; sourceTree = "<group>"; };
+		348DF7B3246924A500786A3E /* WXCommReport.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXCommReport.h; sourceTree = "<group>"; };
+		348DF7B4246924A500786A3E /* WXAppSysShareController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXAppSysShareController.h; sourceTree = "<group>"; };
+		348DF7B5246924A500786A3E /* NSString+WXExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+WXExtension.m"; sourceTree = "<group>"; };
+		348DF7B6246924A500786A3E /* WXCommInterface.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WXCommInterface.m; sourceTree = "<group>"; };
+		348DF7B7246924A500786A3E /* WXCommDevice.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WXCommDevice.m; sourceTree = "<group>"; };
+		348DF7B8246924A500786A3E /* WXCommTools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXCommTools.h; sourceTree = "<group>"; };
+		348DF7B9246924A500786A3E /* WXCommKeychain.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WXCommKeychain.m; sourceTree = "<group>"; };
+		348DF7BA246924A500786A3E /* UILabel+Gradient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UILabel+Gradient.h"; sourceTree = "<group>"; };
+		348DF7BB246924A500786A3E /* WXCommShare.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXCommShare.h; sourceTree = "<group>"; };
+		348DF7BC246924A500786A3E /* WXEasyHttp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXEasyHttp.h; sourceTree = "<group>"; };
+		348DF7BD246924A500786A3E /* UIFont+WXExtention.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIFont+WXExtention.m"; sourceTree = "<group>"; };
+		348DF7BE246924A500786A3E /* WXUserDefaultKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WXUserDefaultKit.m; sourceTree = "<group>"; };
+		348DF7BF246924A500786A3E /* NSDate+WXExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+WXExtension.h"; sourceTree = "<group>"; };
+		348DF7C0246924A500786A3E /* WXCommLang.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WXCommLang.m; sourceTree = "<group>"; };
+		348DF7C1246924A500786A3E /* WXDataBaseManage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WXDataBaseManage.m; sourceTree = "<group>"; };
+		348DF7C2246924A500786A3E /* WXCloudUploadAuthEntity.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WXCloudUploadAuthEntity.m; sourceTree = "<group>"; };
+		348DF7C3246924A500786A3E /* UIImage+WXExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+WXExtension.h"; sourceTree = "<group>"; };
+		348DF7C4246924A500786A3E /* UIView+WXExtention.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+WXExtention.m"; sourceTree = "<group>"; };
+		348DF7C5246924A500786A3E /* WXCommFeedback.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXCommFeedback.h; sourceTree = "<group>"; };
+		348DF7C6246924A500786A3E /* WXAFNetworking.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WXAFNetworking.m; sourceTree = "<group>"; };
+		348DF7C7246924A500786A3E /* WXAccountWebBridge.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WXAccountWebBridge.m; sourceTree = "<group>"; };
+		348DF7C8246924A500786A3E /* WXCommLog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WXCommLog.m; sourceTree = "<group>"; };
+		348DF7C9246924A500786A3E /* WXCommAppInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WXCommAppInfo.m; sourceTree = "<group>"; };
+		348DF7CA246924A500786A3E /* WXAnimatedImageUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXAnimatedImageUtil.h; sourceTree = "<group>"; };
+		348DF7CB246924A500786A3E /* WXAppTools.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WXAppTools.m; sourceTree = "<group>"; };
+		348DF7CC246924A500786A3E /* WXAccountTools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXAccountTools.h; sourceTree = "<group>"; };
+		348DF7CD246924A500786A3E /* WXCommPassportInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXCommPassportInfo.h; sourceTree = "<group>"; };
+		348DF7CE246924A500786A3E /* WXAlertView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXAlertView.h; sourceTree = "<group>"; };
+		348DF7CF246924A500786A3E /* WXAutoCheckUpdate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WXAutoCheckUpdate.m; sourceTree = "<group>"; };
+		348DF7D0246924A500786A3E /* UIButton+imageTextEdgeInsets.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+imageTextEdgeInsets.h"; sourceTree = "<group>"; };
+		348DF7D1246924A500786A3E /* WXCommSettings.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WXCommSettings.m; sourceTree = "<group>"; };
+		348DF7D2246924A500786A3E /* WXCommProductInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WXCommProductInfo.m; sourceTree = "<group>"; };
+		348DF7D3246924A500786A3E /* UIImageView+WXAnimated.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+WXAnimated.m"; sourceTree = "<group>"; };
+		348DF7D4246924A500786A3E /* WXTimerAlertView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WXTimerAlertView.m; sourceTree = "<group>"; };
+		348DF7D5246924A500786A3E /* WXCommShareMetaData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXCommShareMetaData.h; sourceTree = "<group>"; };
+		348DF7D6246924A500786A3E /* UIButton+WXEdgeExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+WXEdgeExtension.m"; sourceTree = "<group>"; };
+		348DF7D7246924A500786A3E /* WXEasyHttp.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WXEasyHttp.m; sourceTree = "<group>"; };
+		348DF7D8246924A500786A3E /* WXCommShare.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WXCommShare.m; sourceTree = "<group>"; };
+		348DF7D9246924A500786A3E /* UILabel+Gradient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UILabel+Gradient.m"; sourceTree = "<group>"; };
+		348DF7DA246924A500786A3E /* WXCommKeychain.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXCommKeychain.h; sourceTree = "<group>"; };
+		348DF7DB246924A500786A3E /* WXCommTools.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WXCommTools.m; sourceTree = "<group>"; };
+		348DF7DC246924A500786A3E /* WXCommDevice.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXCommDevice.h; sourceTree = "<group>"; };
+		348DF7DD246924A500786A3E /* WXAppSysShareController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WXAppSysShareController.m; sourceTree = "<group>"; };
+		348DF7DE246924A500786A3E /* WXCommInterface.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXCommInterface.h; sourceTree = "<group>"; };
+		348DF7DF246924A500786A3E /* NSString+WXExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+WXExtension.h"; sourceTree = "<group>"; };
+		348DF7E0246924A500786A3E /* WXCommDefine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXCommDefine.h; sourceTree = "<group>"; };
+		348DF7E1246924A500786A3E /* WXCommReport.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WXCommReport.m; sourceTree = "<group>"; };
+		348DF7E2246924A500786A3E /* NSObject+WXCoding.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+WXCoding.h"; sourceTree = "<group>"; };
+		348DF7E3246924A500786A3E /* WXCommAppInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXCommAppInfo.h; sourceTree = "<group>"; };
+		348DF7E4246924A500786A3E /* WXAnimatedImageUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WXAnimatedImageUtil.m; sourceTree = "<group>"; };
+		348DF7E5246924A500786A3E /* WXAccountWebBridge.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXAccountWebBridge.h; sourceTree = "<group>"; };
+		348DF7E6246924A500786A3E /* WXCommLog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXCommLog.h; sourceTree = "<group>"; };
+		348DF7E7246924A500786A3E /* WXAFNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXAFNetworking.h; sourceTree = "<group>"; };
+		348DF7E8246924A500786A3E /* WXCommFeedback.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WXCommFeedback.m; sourceTree = "<group>"; };
+		348DF7E9246924A500786A3E /* UIImage+WXExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+WXExtension.m"; sourceTree = "<group>"; };
+		348DF7EA246924A500786A3E /* UIView+WXExtention.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+WXExtention.h"; sourceTree = "<group>"; };
+		348DF7EB246924A500786A3E /* WXDataBaseManage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXDataBaseManage.h; sourceTree = "<group>"; };
+		348DF7EC246924A500786A3E /* WXCloudUploadAuthEntity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXCloudUploadAuthEntity.h; sourceTree = "<group>"; };
+		348DF7ED246924A500786A3E /* WXCommLang.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXCommLang.h; sourceTree = "<group>"; };
+		348DF7EE246924A500786A3E /* NSDate+WXExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+WXExtension.m"; sourceTree = "<group>"; };
+		348DF7EF246924A500786A3E /* WXUserDefaultKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXUserDefaultKit.h; sourceTree = "<group>"; };
+		348DF7F0246924A500786A3E /* UIFont+WXExtention.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIFont+WXExtention.h"; sourceTree = "<group>"; };
+		348DF7F1246924A500786A3E /* WXCommProductInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXCommProductInfo.h; sourceTree = "<group>"; };
+		348DF7F2246924A500786A3E /* UIButton+imageTextEdgeInsets.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+imageTextEdgeInsets.m"; sourceTree = "<group>"; };
+		348DF7F3246924A500786A3E /* WXCommSettings.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXCommSettings.h; sourceTree = "<group>"; };
+		348DF7F4246924A500786A3E /* WXAutoCheckUpdate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXAutoCheckUpdate.h; sourceTree = "<group>"; };
+		348DF7F5246924A500786A3E /* CommPassportHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CommPassportHeader.h; sourceTree = "<group>"; };
+		348DF7F6246924A500786A3E /* WXAlertView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WXAlertView.m; sourceTree = "<group>"; };
+		348DF7F7246924A500786A3E /* WXCommPassportInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WXCommPassportInfo.m; sourceTree = "<group>"; };
+		348DF7F8246924A500786A3E /* WXAccountTools.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WXAccountTools.m; sourceTree = "<group>"; };
+		348DF7F9246924A500786A3E /* WXAppTools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXAppTools.h; sourceTree = "<group>"; };
+		348DF7FA246924A500786A3E /* UIButton+WXEdgeExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+WXEdgeExtension.h"; sourceTree = "<group>"; };
+		348DF7FB246924A500786A3E /* WXCommShareMetaData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WXCommShareMetaData.m; sourceTree = "<group>"; };
+		348DF7FC246924A500786A3E /* WXTimerAlertView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXTimerAlertView.h; sourceTree = "<group>"; };
+		348DF7FD246924A500786A3E /* UIImageView+WXAnimated.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+WXAnimated.h"; sourceTree = "<group>"; };
+		348DF84A24693BA400786A3E /* CryptoKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CryptoKit.framework; path = System/Library/Frameworks/CryptoKit.framework; sourceTree = SDKROOT; };
 		3736DDB226AF8D43736D703F94624F94 /* YBNetwork.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = YBNetwork.debug.xcconfig; sourceTree = "<group>"; };
 		3C1D6498F379320B21C382D5AF015503 /* YYSpriteSheetImage.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = YYSpriteSheetImage.m; path = YYImage/YYSpriteSheetImage.m; sourceTree = "<group>"; };
 		426EC7AD87E1DB1818086A0C567A9854 /* YYAnimatedImageView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = YYAnimatedImageView.m; path = YYImage/YYAnimatedImageView.m; sourceTree = "<group>"; };
@@ -704,6 +652,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				348DF84B24693BA400786A3E /* CryptoKit.framework in Frameworks */,
 				45EE0EE076FFE8BA325C37E8777603E3 /* Foundation.framework in Frameworks */,
 				C19B78ED1DFF22FC43F817FE5FFCE8C9 /* YBNetwork.framework in Frameworks */,
 				6D227906164779C930513815731BA3C9 /* YYImage.framework in Frameworks */,
@@ -850,24 +799,16 @@
 		348DF5BF2467A87F00786A3E /* WXCustomUI */ = {
 			isa = PBXGroup;
 			children = (
-				348DF5C12467A87F00786A3E /* TitleBarView */,
+				348DF5C22467A87F00786A3E /* LGtitleBarView.m */,
+				348DF5C32467A87F00786A3E /* LGcollectionCell.h */,
+				348DF5C42467A87F00786A3E /* LGtitleBarView.h */,
+				348DF5C52467A87F00786A3E /* LGcollectionCell.m */,
 				348DF5C02467A87F00786A3E /* WXiOSCustomUI.h */,
 				348DF5C72467A87F00786A3E /* WXiOSCustomUI.m */,
 				348DF5C62467A87F00786A3E /* CustomUI.md */,
 			);
 			name = WXCustomUI;
 			path = WXiOSCommonUtils/WXCustomUI;
-			sourceTree = "<group>";
-		};
-		348DF5C12467A87F00786A3E /* TitleBarView */ = {
-			isa = PBXGroup;
-			children = (
-				348DF5C22467A87F00786A3E /* LGtitleBarView.m */,
-				348DF5C32467A87F00786A3E /* LGcollectionCell.h */,
-				348DF5C42467A87F00786A3E /* LGtitleBarView.h */,
-				348DF5C52467A87F00786A3E /* LGcollectionCell.m */,
-			);
-			path = TitleBarView;
 			sourceTree = "<group>";
 		};
 		348DF5C82467A88000786A3E /* WXiOSCommonUtilsSource */ = {
@@ -922,133 +863,10 @@
 			path = Lang;
 			sourceTree = "<group>";
 		};
-		348DF5E92467A88000786A3E /* WXUtils */ = {
-			isa = PBXGroup;
-			children = (
-				348DF5EA2467A88000786A3E /* WXCommLog */,
-				348DF5ED2467A88000786A3E /* WXCommKeychain */,
-				348DF5F02467A88000786A3E /* WXInterface */,
-				348DF6042467A88000786A3E /* WXCommTools */,
-				348DF6072467A88000786A3E /* WXCustomView */,
-				348DF60D2467A88000786A3E /* WXCommShare */,
-				348DF61D2467A88000786A3E /* Category */,
-				348DF6842467A88000786A3E /* WXAccountCenter */,
-				348DF6A02467A88000786A3E /* WXDatabaseManager */,
-				348DF6B22467A88000786A3E /* WXAnimatedImageView */,
-				348DF6B72467A88000786A3E /* WXCommPassportInfo */,
-				348DF6B92467A88000786A3E /* WXAutoCheckUpdate */,
-				348DF6BD2467A88000786A3E /* WXCommSettings */,
-				348DF6C22467A88000786A3E /* WXCommDevice */,
-				348DF6C52467A88000786A3E /* WXNetworkCommInterfce */,
-				348DF6CE2467A88000786A3E /* WXUserDefaultKit */,
-			);
-			name = WXUtils;
-			path = WXiOSCommonUtils/WXUtils;
-			sourceTree = "<group>";
-		};
-		348DF5EA2467A88000786A3E /* WXCommLog */ = {
-			isa = PBXGroup;
-			children = (
-				348DF5EB2467A88000786A3E /* WXCommLog.m */,
-				348DF5EC2467A88000786A3E /* WXCommLog.h */,
-			);
-			path = WXCommLog;
-			sourceTree = "<group>";
-		};
-		348DF5ED2467A88000786A3E /* WXCommKeychain */ = {
-			isa = PBXGroup;
-			children = (
-				348DF5EE2467A88000786A3E /* WXCommKeychain.m */,
-				348DF5EF2467A88000786A3E /* WXCommKeychain.h */,
-			);
-			path = WXCommKeychain;
-			sourceTree = "<group>";
-		};
-		348DF5F02467A88000786A3E /* WXInterface */ = {
-			isa = PBXGroup;
-			children = (
-				348DF5F12467A88000786A3E /* WXCommReport.h */,
-				348DF5F22467A88000786A3E /* WXCommShare.h */,
-				348DF5F42467A88000786A3E /* WXCommLang.m */,
-				348DF5F62467A88000786A3E /* WXCommFeedback.h */,
-				348DF5F72467A88000786A3E /* WXCommAppInfo.m */,
-				348DF5F82467A88000786A3E /* WXCommPassportInfo.h */,
-				348DF5F92467A88000786A3E /* WXCommProductInfo.m */,
-				348DF5FB2467A88000786A3E /* WXCommShare.m */,
-				348DF5FC2467A88000786A3E /* WXCommDefine.h */,
-				348DF5FD2467A88000786A3E /* WXCommReport.m */,
-				348DF5FE2467A88000786A3E /* WXCommAppInfo.h */,
-				348DF5FF2467A88000786A3E /* WXCommFeedback.m */,
-				348DF6012467A88000786A3E /* WXCommLang.h */,
-				348DF6022467A88000786A3E /* WXCommProductInfo.h */,
-				348DF6032467A88000786A3E /* WXCommPassportInfo.m */,
-			);
-			path = WXInterface;
-			sourceTree = "<group>";
-		};
-		348DF6042467A88000786A3E /* WXCommTools */ = {
-			isa = PBXGroup;
-			children = (
-				348DF6052467A88000786A3E /* WXCommTools.h */,
-				348DF6062467A88000786A3E /* WXCommTools.m */,
-			);
-			path = WXCommTools;
-			sourceTree = "<group>";
-		};
-		348DF6072467A88000786A3E /* WXCustomView */ = {
-			isa = PBXGroup;
-			children = (
-				348DF6092467A88000786A3E /* WXAlertView.h */,
-				348DF60A2467A88000786A3E /* WXTimerAlertView.m */,
-				348DF60B2467A88000786A3E /* WXAlertView.m */,
-				348DF60C2467A88000786A3E /* WXTimerAlertView.h */,
-			);
-			path = WXCustomView;
-			sourceTree = "<group>";
-		};
-		348DF60D2467A88000786A3E /* WXCommShare */ = {
-			isa = PBXGroup;
-			children = (
-				348DF60E2467A88000786A3E /* WXAppSysShareController.h */,
-				348DF6102467A88000786A3E /* WXCommShareMetaData.h */,
-				348DF6122467A88000786A3E /* WXAppSysShareController.m */,
-				348DF6132467A88000786A3E /* WXCommShareMetaData.m */,
-			);
-			path = WXCommShare;
-			sourceTree = "<group>";
-		};
-		348DF61D2467A88000786A3E /* Category */ = {
-			isa = PBXGroup;
-			children = (
-				348DF6312467A88000786A3E /* NSObject+WXCoding.m */,
-				348DF6322467A88000786A3E /* NSObject+WXCoding.h */,
-				348DF61E2467A88000786A3E /* NSString+WXExtension.m */,
-				348DF61F2467A88000786A3E /* UILabel+Gradient.h */,
-				348DF6202467A88000786A3E /* UIFont+WXExtention.m */,
-				348DF6212467A88000786A3E /* NSDate+WXExtension.h */,
-				348DF6222467A88000786A3E /* UIImage+WXExtension.h */,
-				348DF6232467A88000786A3E /* UIView+WXExtention.m */,
-				348DF6242467A88000786A3E /* UIButton+imageTextEdgeInsets.h */,
-				348DF6252467A88000786A3E /* UIImageView+WXAnimated.m */,
-				348DF6262467A88000786A3E /* UIButton+WXEdgeExtension.m */,
-				348DF6272467A88000786A3E /* UILabel+Gradient.m */,
-				348DF6282467A88000786A3E /* NSString+WXExtension.h */,
-				348DF6292467A88000786A3E /* UIImage+WXExtension.m */,
-				348DF62A2467A88000786A3E /* UIView+WXExtention.h */,
-				348DF62B2467A88000786A3E /* NSDate+WXExtension.m */,
-				348DF62C2467A88000786A3E /* UIFont+WXExtention.h */,
-				348DF62D2467A88000786A3E /* UIButton+imageTextEdgeInsets.m */,
-				348DF62E2467A88000786A3E /* UIButton+WXEdgeExtension.h */,
-				348DF62F2467A88000786A3E /* UIImageView+WXAnimated.h */,
-			);
-			path = Category;
-			sourceTree = "<group>";
-		};
 		348DF6332467A88000786A3E /* Utils */ = {
 			isa = PBXGroup;
 			children = (
 				348DF6392467A88000786A3E /* DES */,
-				348DF63F2467A88000786A3E /* libPhoneNumber */,
 				348DF65C2467A88000786A3E /* ZipArchive */,
 			);
 			path = Utils;
@@ -1061,40 +879,6 @@
 				348DF63B2467A88000786A3E /* DES.h */,
 			);
 			path = DES;
-			sourceTree = "<group>";
-		};
-		348DF63F2467A88000786A3E /* libPhoneNumber */ = {
-			isa = PBXGroup;
-			children = (
-				348DF6402467A88000786A3E /* NBPhoneNumber.h */,
-				348DF6412467A88000786A3E /* NBAsYouTypeFormatter.m */,
-				348DF6422467A88000786A3E /* NBPhoneMetaData.m */,
-				348DF6432467A88000786A3E /* NBPhoneNumberUtil.m */,
-				348DF6442467A88000786A3E /* NSArray+NBAdditions.m */,
-				348DF6452467A88000786A3E /* NBMetadataHelper.h */,
-				348DF6462467A88000786A3E /* NBPhoneNumberDefines.h */,
-				348DF6482467A88000786A3E /* NBRegExMatcher.h */,
-				348DF6492467A88000786A3E /* NBRegularExpressionCache.h */,
-				348DF64A2467A88000786A3E /* NBRegExMatcher.m */,
-				348DF64B2467A88000786A3E /* NBRegularExpressionCache.m */,
-				348DF64C2467A88000786A3E /* GeneratePhoneNumberHeader.sh */,
-				348DF64D2467A88000786A3E /* NBNumberFormat.m */,
-				348DF64E2467A88000786A3E /* NBPhoneNumberDesc.h */,
-				348DF64F2467A88000786A3E /* NBPhoneNumberUtil+ShortNumber.m */,
-				348DF6502467A88000786A3E /* NBAsYouTypeFormatter.h */,
-				348DF6512467A88000786A3E /* NBPhoneNumber.m */,
-				348DF6522467A88000786A3E /* NBPhoneMetaData.h */,
-				348DF6532467A88000786A3E /* NBMetadataHelper.m */,
-				348DF6542467A88000786A3E /* NSArray+NBAdditions.h */,
-				348DF6552467A88000786A3E /* NBPhoneNumberUtil.h */,
-				348DF6562467A88000786A3E /* NBPhoneNumberMetadata.plist */,
-				348DF6572467A88000786A3E /* NBGeneratedPhoneNumberMetaData.h */,
-				348DF6582467A88000786A3E /* NBPhoneNumberUtil+ShortNumber.h */,
-				348DF6592467A88000786A3E /* NBPhoneNumberDesc.m */,
-				348DF65A2467A88000786A3E /* NBNumberFormat.h */,
-				348DF65B2467A88000786A3E /* NBPhoneNumberDefines.m */,
-			);
-			path = libPhoneNumber;
 			sourceTree = "<group>";
 		};
 		348DF65C2467A88000786A3E /* ZipArchive */ = {
@@ -1137,105 +921,99 @@
 			path = ZipArchive;
 			sourceTree = "<group>";
 		};
-		348DF6842467A88000786A3E /* WXAccountCenter */ = {
+		348DF7B1246924A500786A3E /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				348DF6852467A88000786A3E /* WXAccountWebBridge.m */,
-				348DF6862467A88000786A3E /* WXAccountTools.h */,
-				348DF6882467A88000786A3E /* WXAccountWebBridge.h */,
-				348DF69A2467A88000786A3E /* WXAccountTools.m */,
+				348DF5F52467A88000786A3E /* WXiOSCommonUtils.h */,
+				348DF6002467A88000786A3E /* WXiOSCommonUtils.m */,
+				348DF7B2246924A500786A3E /* NSObject+WXCoding.m */,
+				348DF7B3246924A500786A3E /* WXCommReport.h */,
+				348DF7B4246924A500786A3E /* WXAppSysShareController.h */,
+				348DF7B5246924A500786A3E /* NSString+WXExtension.m */,
+				348DF7B6246924A500786A3E /* WXCommInterface.m */,
+				348DF7B7246924A500786A3E /* WXCommDevice.m */,
+				348DF7B8246924A500786A3E /* WXCommTools.h */,
+				348DF7B9246924A500786A3E /* WXCommKeychain.m */,
+				348DF7BA246924A500786A3E /* UILabel+Gradient.h */,
+				348DF7BB246924A500786A3E /* WXCommShare.h */,
+				348DF7BC246924A500786A3E /* WXEasyHttp.h */,
+				348DF7BD246924A500786A3E /* UIFont+WXExtention.m */,
+				348DF7BE246924A500786A3E /* WXUserDefaultKit.m */,
+				348DF7BF246924A500786A3E /* NSDate+WXExtension.h */,
+				348DF7C0246924A500786A3E /* WXCommLang.m */,
+				348DF7C1246924A500786A3E /* WXDataBaseManage.m */,
+				348DF7C2246924A500786A3E /* WXCloudUploadAuthEntity.m */,
+				348DF7C3246924A500786A3E /* UIImage+WXExtension.h */,
+				348DF7C4246924A500786A3E /* UIView+WXExtention.m */,
+				348DF7C5246924A500786A3E /* WXCommFeedback.h */,
+				348DF7C6246924A500786A3E /* WXAFNetworking.m */,
+				348DF7C7246924A500786A3E /* WXAccountWebBridge.m */,
+				348DF7C8246924A500786A3E /* WXCommLog.m */,
+				348DF7C9246924A500786A3E /* WXCommAppInfo.m */,
+				348DF7CA246924A500786A3E /* WXAnimatedImageUtil.h */,
+				348DF7CB246924A500786A3E /* WXAppTools.m */,
+				348DF7CC246924A500786A3E /* WXAccountTools.h */,
+				348DF7CD246924A500786A3E /* WXCommPassportInfo.h */,
+				348DF7CE246924A500786A3E /* WXAlertView.h */,
+				348DF7CF246924A500786A3E /* WXAutoCheckUpdate.m */,
+				348DF7D0246924A500786A3E /* UIButton+imageTextEdgeInsets.h */,
+				348DF7D1246924A500786A3E /* WXCommSettings.m */,
+				348DF7D2246924A500786A3E /* WXCommProductInfo.m */,
+				348DF7D3246924A500786A3E /* UIImageView+WXAnimated.m */,
+				348DF7D4246924A500786A3E /* WXTimerAlertView.m */,
+				348DF7D5246924A500786A3E /* WXCommShareMetaData.h */,
+				348DF7D6246924A500786A3E /* UIButton+WXEdgeExtension.m */,
+				348DF7D7246924A500786A3E /* WXEasyHttp.m */,
+				348DF7D8246924A500786A3E /* WXCommShare.m */,
+				348DF7D9246924A500786A3E /* UILabel+Gradient.m */,
+				348DF7DA246924A500786A3E /* WXCommKeychain.h */,
+				348DF7DB246924A500786A3E /* WXCommTools.m */,
+				348DF7DC246924A500786A3E /* WXCommDevice.h */,
+				348DF7DD246924A500786A3E /* WXAppSysShareController.m */,
+				348DF7DE246924A500786A3E /* WXCommInterface.h */,
+				348DF7DF246924A500786A3E /* NSString+WXExtension.h */,
+				348DF7E0246924A500786A3E /* WXCommDefine.h */,
+				348DF7E1246924A500786A3E /* WXCommReport.m */,
+				348DF7E2246924A500786A3E /* NSObject+WXCoding.h */,
+				348DF7E3246924A500786A3E /* WXCommAppInfo.h */,
+				348DF7E4246924A500786A3E /* WXAnimatedImageUtil.m */,
+				348DF7E5246924A500786A3E /* WXAccountWebBridge.h */,
+				348DF7E6246924A500786A3E /* WXCommLog.h */,
+				348DF7E7246924A500786A3E /* WXAFNetworking.h */,
+				348DF7E8246924A500786A3E /* WXCommFeedback.m */,
+				348DF7E9246924A500786A3E /* UIImage+WXExtension.m */,
+				348DF7EA246924A500786A3E /* UIView+WXExtention.h */,
+				348DF7EB246924A500786A3E /* WXDataBaseManage.h */,
+				348DF7EC246924A500786A3E /* WXCloudUploadAuthEntity.h */,
+				348DF7ED246924A500786A3E /* WXCommLang.h */,
+				348DF7EE246924A500786A3E /* NSDate+WXExtension.m */,
+				348DF7EF246924A500786A3E /* WXUserDefaultKit.h */,
+				348DF7F0246924A500786A3E /* UIFont+WXExtention.h */,
+				348DF7F1246924A500786A3E /* WXCommProductInfo.h */,
+				348DF7F2246924A500786A3E /* UIButton+imageTextEdgeInsets.m */,
+				348DF7F3246924A500786A3E /* WXCommSettings.h */,
+				348DF7F4246924A500786A3E /* WXAutoCheckUpdate.h */,
+				348DF7F5246924A500786A3E /* CommPassportHeader.h */,
+				348DF7F6246924A500786A3E /* WXAlertView.m */,
+				348DF7F7246924A500786A3E /* WXCommPassportInfo.m */,
+				348DF7F8246924A500786A3E /* WXAccountTools.m */,
+				348DF7F9246924A500786A3E /* WXAppTools.h */,
+				348DF7FA246924A500786A3E /* UIButton+WXEdgeExtension.h */,
+				348DF7FB246924A500786A3E /* WXCommShareMetaData.m */,
+				348DF7FC246924A500786A3E /* WXTimerAlertView.h */,
+				348DF7FD246924A500786A3E /* UIImageView+WXAnimated.h */,
 			);
-			path = WXAccountCenter;
-			sourceTree = "<group>";
-		};
-		348DF6A02467A88000786A3E /* WXDatabaseManager */ = {
-			isa = PBXGroup;
-			children = (
-				348DF6A12467A88000786A3E /* WXDataBaseManage.m */,
-				348DF6A22467A88000786A3E /* WXDataBaseManage.h */,
-			);
-			path = WXDatabaseManager;
-			sourceTree = "<group>";
-		};
-		348DF6B22467A88000786A3E /* WXAnimatedImageView */ = {
-			isa = PBXGroup;
-			children = (
-				348DF6B32467A88000786A3E /* WXAnimatedImageUtil.h */,
-				348DF6B42467A88000786A3E /* WXAnimatedImageUtil.m */,
-			);
-			path = WXAnimatedImageView;
-			sourceTree = "<group>";
-		};
-		348DF6B72467A88000786A3E /* WXCommPassportInfo */ = {
-			isa = PBXGroup;
-			children = (
-				348DF6B82467A88000786A3E /* CommPassportHeader.h */,
-			);
-			path = WXCommPassportInfo;
-			sourceTree = "<group>";
-		};
-		348DF6B92467A88000786A3E /* WXAutoCheckUpdate */ = {
-			isa = PBXGroup;
-			children = (
-				348DF6BA2467A88000786A3E /* WXAutoCheckUpdate.m */,
-				348DF6BB2467A88000786A3E /* WXAutoCheckUpdate.h */,
-			);
-			path = WXAutoCheckUpdate;
-			sourceTree = "<group>";
-		};
-		348DF6BD2467A88000786A3E /* WXCommSettings */ = {
-			isa = PBXGroup;
-			children = (
-				348DF6C12467A88000786A3E /* WXAppTools.h */,
-				348DF6BE2467A88000786A3E /* WXAppTools.m */,
-				348DF6BF2467A88000786A3E /* WXCommSettings.m */,
-				348DF6C02467A88000786A3E /* WXCommSettings.h */,
-			);
-			path = WXCommSettings;
-			sourceTree = "<group>";
-		};
-		348DF6C22467A88000786A3E /* WXCommDevice */ = {
-			isa = PBXGroup;
-			children = (
-				348DF6C32467A88000786A3E /* WXCommDevice.m */,
-				348DF6C42467A88000786A3E /* WXCommDevice.h */,
-			);
-			path = WXCommDevice;
-			sourceTree = "<group>";
-		};
-		348DF6C52467A88000786A3E /* WXNetworkCommInterfce */ = {
-			isa = PBXGroup;
-			children = (
-				348DF6C72467A88000786A3E /* WXEasyHttp.h */,
-				348DF6CA2467A88000786A3E /* WXEasyHttp.m */,
-				348DF6CB2467A88000786A3E /* WXCommInterface.h */,
-				348DF6C62467A88000786A3E /* WXCommInterface.m */,
-				348DF6CD2467A88000786A3E /* WXCloudUploadAuthEntity.h */,
-				348DF6C82467A88000786A3E /* WXCloudUploadAuthEntity.m */,
-				348DF6CC2467A88000786A3E /* WXAFNetworking.h */,
-				348DF6C92467A88000786A3E /* WXAFNetworking.m */,
-			);
-			path = WXNetworkCommInterfce;
-			sourceTree = "<group>";
-		};
-		348DF6CE2467A88000786A3E /* WXUserDefaultKit */ = {
-			isa = PBXGroup;
-			children = (
-				348DF6D02467A88000786A3E /* WXUserDefaultKit.h */,
-				348DF6CF2467A88000786A3E /* WXUserDefaultKit.m */,
-			);
-			path = WXUserDefaultKit;
+			name = Classes;
+			path = WXiOSCommonUtils/Classes;
 			sourceTree = "<group>";
 		};
 		381C4269270DB098D2C33AF82218CE68 /* WXiOSCommonUtils */ = {
 			isa = PBXGroup;
 			children = (
-				348DF5F52467A88000786A3E /* WXiOSCommonUtils.h */,
-				348DF6002467A88000786A3E /* WXiOSCommonUtils.m */,
+				348DF7B1246924A500786A3E /* Classes */,
 				348DF6332467A88000786A3E /* Utils */,
 				348DF5BF2467A87F00786A3E /* WXCustomUI */,
 				348DF5C82467A88000786A3E /* WXiOSCommonUtilsSource */,
-				348DF5E92467A88000786A3E /* WXUtils */,
 				C3ED0184152900C75F1D964C89E89825 /* Pod */,
 				BD96C8EAB1E89CE901D8D05740271EDC /* Support Files */,
 			);
@@ -1344,6 +1122,7 @@
 		93F09E07FF4A114BE61F279995FE2E89 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				348DF84A24693BA400786A3E /* CryptoKit.framework */,
 				E28910A9A70CFC89F54B4F494F8824E2 /* AFNetworking.framework */,
 				A971E07ADFE4FB3C354C854AFF14D387 /* YBNetwork.framework */,
 				2D2F9F1AFA311BAC774A0145CC36A4E0 /* YYCache.framework */,
@@ -1533,80 +1312,67 @@
 			files = (
 				348DF6D12467A88100786A3E /* WXiOSCustomUI.h in Headers */,
 				348DF7592467A88100786A3E /* ioapi.h in Headers */,
-				348DF7462467A88100786A3E /* NBPhoneMetaData.h in Headers */,
-				348DF70B2467A88100786A3E /* WXCommTools.h in Headers */,
-				348DF6FF2467A88100786A3E /* WXCommPassportInfo.h in Headers */,
 				348DF75C2467A88100786A3E /* prng.h in Headers */,
-				348DF7482467A88100786A3E /* NSArray+NBAdditions.h in Headers */,
 				348DF7582467A88100786A3E /* mztools.h in Headers */,
-				348DF7AA2467A88100786A3E /* WXAFNetworking.h in Headers */,
-				348DF7232467A88100786A3E /* UIImage+WXExtension.h in Headers */,
 				348DF75A2467A88100786A3E /* Common.h in Headers */,
-				348DF72F2467A88100786A3E /* UIButton+WXEdgeExtension.h in Headers */,
 				348DF7602467A88100786A3E /* pwd2key.h in Headers */,
-				348DF7112467A88100786A3E /* WXAppSysShareController.h in Headers */,
-				348DF6F82467A88100786A3E /* WXCommReport.h in Headers */,
-				348DF7032467A88100786A3E /* WXCommDefine.h in Headers */,
-				348DF7252467A88100786A3E /* UIButton+imageTextEdgeInsets.h in Headers */,
-				348DF7132467A88100786A3E /* WXCommShareMetaData.h in Headers */,
-				348DF7A12467A88100786A3E /* WXAppTools.h in Headers */,
 				348DF7632467A88100786A3E /* aesopt.h in Headers */,
-				348DF7322467A88100786A3E /* NSObject+WXCoding.h in Headers */,
-				348DF7742467A88100786A3E /* WXAccountTools.h in Headers */,
-				348DF7222467A88100786A3E /* NSDate+WXExtension.h in Headers */,
 				348DF75F2467A88100786A3E /* aestab.h in Headers */,
-				348DF7892467A88100786A3E /* WXDataBaseManage.h in Headers */,
-				348DF7352467A88100786A3E /* NBPhoneNumber.h in Headers */,
-				348DF7092467A88100786A3E /* WXCommProductInfo.h in Headers */,
-				348DF7AB2467A88100786A3E /* WXCloudUploadAuthEntity.h in Headers */,
 				348DF7342467A88100786A3E /* DES.h in Headers */,
-				348DF72B2467A88100786A3E /* UIView+WXExtention.h in Headers */,
-				348DF73B2467A88100786A3E /* NBPhoneNumberDefines.h in Headers */,
 				348DF7552467A88100786A3E /* crypt.h in Headers */,
-				348DF7102467A88100786A3E /* WXTimerAlertView.h in Headers */,
-				348DF73A2467A88100786A3E /* NBMetadataHelper.h in Headers */,
-				348DF6F52467A88100786A3E /* WXCommLog.h in Headers */,
-				348DF7202467A88100786A3E /* UILabel+Gradient.h in Headers */,
-				348DF7052467A88100786A3E /* WXCommAppInfo.h in Headers */,
-				348DF7422467A88100786A3E /* NBPhoneNumberDesc.h in Headers */,
 				348DF76F2467A88100786A3E /* fileenc.h in Headers */,
-				348DF6F92467A88100786A3E /* WXCommShare.h in Headers */,
-				348DF7292467A88100786A3E /* NSString+WXExtension.h in Headers */,
-				348DF74C2467A88100786A3E /* NBPhoneNumberUtil+ShortNumber.h in Headers */,
-				348DF7442467A88100786A3E /* NBAsYouTypeFormatter.h in Headers */,
+				348DF811246924A500786A3E /* WXCommFeedback.h in Headers */,
+				348DF80B246924A500786A3E /* NSDate+WXExtension.h in Headers */,
+				348DF838246924A600786A3E /* WXCloudUploadAuthEntity.h in Headers */,
+				348DF836246924A600786A3E /* UIView+WXExtention.h in Headers */,
+				348DF82F246924A600786A3E /* WXCommAppInfo.h in Headers */,
+				348DF849246924A600786A3E /* UIImageView+WXAnimated.h in Headers */,
+				348DF83D246924A600786A3E /* WXCommProductInfo.h in Headers */,
+				348DF807246924A500786A3E /* WXCommShare.h in Headers */,
+				348DF840246924A600786A3E /* WXAutoCheckUpdate.h in Headers */,
+				348DF816246924A500786A3E /* WXAnimatedImageUtil.h in Headers */,
+				348DF83C246924A600786A3E /* UIFont+WXExtention.h in Headers */,
+				348DF7FF246924A500786A3E /* WXCommReport.h in Headers */,
+				348DF837246924A600786A3E /* WXDataBaseManage.h in Headers */,
+				348DF804246924A500786A3E /* WXCommTools.h in Headers */,
+				348DF821246924A500786A3E /* WXCommShareMetaData.h in Headers */,
+				348DF82B246924A500786A3E /* NSString+WXExtension.h in Headers */,
+				348DF833246924A600786A3E /* WXAFNetworking.h in Headers */,
+				348DF80F246924A500786A3E /* UIImage+WXExtension.h in Headers */,
+				348DF828246924A500786A3E /* WXCommDevice.h in Headers */,
+				348DF848246924A600786A3E /* WXTimerAlertView.h in Headers */,
+				348DF83F246924A600786A3E /* WXCommSettings.h in Headers */,
+				348DF81C246924A500786A3E /* UIButton+imageTextEdgeInsets.h in Headers */,
+				348DF800246924A500786A3E /* WXAppSysShareController.h in Headers */,
+				348DF841246924A600786A3E /* CommPassportHeader.h in Headers */,
+				348DF839246924A600786A3E /* WXCommLang.h in Headers */,
+				348DF83B246924A600786A3E /* WXUserDefaultKit.h in Headers */,
+				348DF818246924A500786A3E /* WXAccountTools.h in Headers */,
+				348DF831246924A600786A3E /* WXAccountWebBridge.h in Headers */,
+				348DF808246924A500786A3E /* WXEasyHttp.h in Headers */,
+				348DF845246924A600786A3E /* WXAppTools.h in Headers */,
+				348DF806246924A500786A3E /* UILabel+Gradient.h in Headers */,
+				348DF832246924A600786A3E /* WXCommLog.h in Headers */,
+				348DF82C246924A600786A3E /* WXCommDefine.h in Headers */,
+				348DF819246924A500786A3E /* WXCommPassportInfo.h in Headers */,
+				348DF82A246924A500786A3E /* WXCommInterface.h in Headers */,
+				348DF82E246924A600786A3E /* NSObject+WXCoding.h in Headers */,
+				348DF826246924A500786A3E /* WXCommKeychain.h in Headers */,
+				348DF846246924A600786A3E /* UIButton+WXEdgeExtension.h in Headers */,
+				348DF81A246924A500786A3E /* WXAlertView.h in Headers */,
 				348DF7672467A88100786A3E /* entropy.h in Headers */,
 				348DF7662467A88100786A3E /* brg_types.h in Headers */,
 				348DF7572467A88100786A3E /* unzip.h in Headers */,
 				348DF7642467A88100786A3E /* aes_via_ace.h in Headers */,
-				348DF72D2467A88100786A3E /* UIFont+WXExtention.h in Headers */,
 				348DF7562467A88100786A3E /* zip.h in Headers */,
-				348DF7302467A88100786A3E /* UIImageView+WXAnimated.h in Headers */,
-				348DF7A32467A88100786A3E /* WXCommDevice.h in Headers */,
 				348DF7682467A88100786A3E /* hmac.h in Headers */,
-				348DF74B2467A88100786A3E /* NBGeneratedPhoneNumberMetaData.h in Headers */,
 				348DF7692467A88100786A3E /* brg_endian.h in Headers */,
-				348DF74E2467A88100786A3E /* NBNumberFormat.h in Headers */,
-				348DF79C2467A88100786A3E /* WXAutoCheckUpdate.h in Headers */,
-				348DF7A52467A88100786A3E /* WXEasyHttp.h in Headers */,
-				348DF7972467A88100786A3E /* WXAnimatedImageUtil.h in Headers */,
-				348DF7492467A88100786A3E /* NBPhoneNumberUtil.h in Headers */,
-				348DF73D2467A88100786A3E /* NBRegularExpressionCache.h in Headers */,
 				348DF7502467A88100786A3E /* ZipArchive.h in Headers */,
-				348DF6F72467A88100786A3E /* WXCommKeychain.h in Headers */,
 				348DF76B2467A88100786A3E /* aes.h in Headers */,
-				348DF7A92467A88100786A3E /* WXCommInterface.h in Headers */,
-				348DF7AD2467A88100786A3E /* WXUserDefaultKit.h in Headers */,
-				348DF7762467A88100786A3E /* WXAccountWebBridge.h in Headers */,
-				348DF79A2467A88100786A3E /* CommPassportHeader.h in Headers */,
-				348DF73C2467A88100786A3E /* NBRegExMatcher.h in Headers */,
-				348DF7082467A88100786A3E /* WXCommLang.h in Headers */,
 				348DF76E2467A88100786A3E /* sha1.h in Headers */,
-				348DF70D2467A88100786A3E /* WXAlertView.h in Headers */,
 				CE9B542203521A02DAEE0ECA19972195 /* WXiOSCommonUtils-umbrella.h in Headers */,
-				348DF6FD2467A88100786A3E /* WXCommFeedback.h in Headers */,
 				348DF6D32467A88100786A3E /* LGcollectionCell.h in Headers */,
 				348DF6D42467A88100786A3E /* LGtitleBarView.h in Headers */,
-				348DF7A02467A88100786A3E /* WXCommSettings.h in Headers */,
 				348DF6FC2467A88100786A3E /* WXiOSCommonUtils.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -1900,8 +1666,6 @@
 				348DF6E52467A88100786A3E /* userCenterBack@3x.png in Resources */,
 				348DF6EA2467A88100786A3E /* en.json in Resources */,
 				348DF7992467A88100786A3E /* CommiOSProductsJson.json in Resources */,
-				348DF74A2467A88100786A3E /* NBPhoneNumberMetadata.plist in Resources */,
-				348DF7402467A88100786A3E /* GeneratePhoneNumberHeader.sh in Resources */,
 				348DF6F02467A88100786A3E /* user@3x.png in Resources */,
 				348DF6DA2467A88100786A3E /* selected@3x.png in Resources */,
 				348DF6DD2467A88100786A3E /* rectangle@3x.png in Resources */,
@@ -1995,75 +1759,63 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				348DF801246924A500786A3E /* NSString+WXExtension.m in Sources */,
+				348DF815246924A500786A3E /* WXCommAppInfo.m in Sources */,
+				348DF80A246924A500786A3E /* WXUserDefaultKit.m in Sources */,
 				348DF7652467A88100786A3E /* sha1.c in Sources */,
-				348DF71F2467A88100786A3E /* NSString+WXExtension.m in Sources */,
-				348DF7AC2467A88100786A3E /* WXUserDefaultKit.m in Sources */,
-				348DF7212467A88100786A3E /* UIFont+WXExtention.m in Sources */,
+				348DF827246924A500786A3E /* WXCommTools.m in Sources */,
+				348DF835246924A600786A3E /* UIImage+WXExtension.m in Sources */,
+				348DF83E246924A600786A3E /* UIButton+imageTextEdgeInsets.m in Sources */,
 				348DF7542467A88100786A3E /* mztools.c in Sources */,
-				348DF7242467A88100786A3E /* UIView+WXExtention.m in Sources */,
-				348DF7A72467A88100786A3E /* WXAFNetworking.m in Sources */,
 				348DF76A2467A88100786A3E /* prng.c in Sources */,
+				348DF803246924A500786A3E /* WXCommDevice.m in Sources */,
+				348DF83A246924A600786A3E /* NSDate+WXExtension.m in Sources */,
+				348DF80D246924A500786A3E /* WXDataBaseManage.m in Sources */,
+				348DF834246924A600786A3E /* WXCommFeedback.m in Sources */,
+				348DF813246924A500786A3E /* WXAccountWebBridge.m in Sources */,
+				348DF805246924A500786A3E /* WXCommKeychain.m in Sources */,
 				348DF76C2467A88100786A3E /* pwd2key.c in Sources */,
-				348DF72C2467A88100786A3E /* NSDate+WXExtension.m in Sources */,
+				348DF812246924A500786A3E /* WXAFNetworking.m in Sources */,
+				348DF825246924A500786A3E /* UILabel+Gradient.m in Sources */,
+				348DF830246924A600786A3E /* WXAnimatedImageUtil.m in Sources */,
 				348DF6D22467A88100786A3E /* LGtitleBarView.m in Sources */,
-				348DF7432467A88100786A3E /* NBPhoneNumberUtil+ShortNumber.m in Sources */,
+				348DF7FE246924A500786A3E /* NSObject+WXCoding.m in Sources */,
+				348DF82D246924A600786A3E /* WXCommReport.m in Sources */,
+				348DF842246924A600786A3E /* WXAlertView.m in Sources */,
 				348DF7072467A88100786A3E /* WXiOSCommonUtils.m in Sources */,
-				348DF7152467A88100786A3E /* WXAppSysShareController.m in Sources */,
-				348DF7362467A88100786A3E /* NBAsYouTypeFormatter.m in Sources */,
-				348DF6FE2467A88100786A3E /* WXCommAppInfo.m in Sources */,
-				348DF74D2467A88100786A3E /* NBPhoneNumberDesc.m in Sources */,
+				348DF81E246924A500786A3E /* WXCommProductInfo.m in Sources */,
+				348DF81D246924A500786A3E /* WXCommSettings.m in Sources */,
 				348DF75E2467A88100786A3E /* hmac.c in Sources */,
+				348DF824246924A500786A3E /* WXCommShare.m in Sources */,
+				348DF817246924A500786A3E /* WXAppTools.m in Sources */,
 				348DF6D52467A88100786A3E /* LGcollectionCell.m in Sources */,
-				348DF7162467A88100786A3E /* WXCommShareMetaData.m in Sources */,
-				348DF7A42467A88100786A3E /* WXCommInterface.m in Sources */,
+				348DF81F246924A500786A3E /* UIImageView+WXAnimated.m in Sources */,
 				348DF75B2467A88100786A3E /* ZipArchive.mm in Sources */,
-				348DF6F62467A88100786A3E /* WXCommKeychain.m in Sources */,
-				348DF7312467A88100786A3E /* NSObject+WXCoding.m in Sources */,
-				348DF7382467A88100786A3E /* NBPhoneNumberUtil.m in Sources */,
-				348DF7262467A88100786A3E /* UIImageView+WXAnimated.m in Sources */,
-				348DF70F2467A88100786A3E /* WXAlertView.m in Sources */,
-				348DF72E2467A88100786A3E /* UIButton+imageTextEdgeInsets.m in Sources */,
-				348DF79F2467A88100786A3E /* WXCommSettings.m in Sources */,
 				348DF7622467A88100786A3E /* fileenc.c in Sources */,
-				348DF7452467A88100786A3E /* NBPhoneNumber.m in Sources */,
 				348DF7532467A88100786A3E /* ioapi.c in Sources */,
-				348DF70A2467A88100786A3E /* WXCommPassportInfo.m in Sources */,
 				348DF6D72467A88100786A3E /* WXiOSCustomUI.m in Sources */,
+				348DF822246924A500786A3E /* UIButton+WXEdgeExtension.m in Sources */,
 				348DF7612467A88100786A3E /* aescrypt.c in Sources */,
-				348DF7412467A88100786A3E /* NBNumberFormat.m in Sources */,
-				348DF70E2467A88100786A3E /* WXTimerAlertView.m in Sources */,
-				348DF7832467A88100786A3E /* WXAccountTools.m in Sources */,
-				348DF7002467A88100786A3E /* WXCommProductInfo.m in Sources */,
-				348DF7732467A88100786A3E /* WXAccountWebBridge.m in Sources */,
-				348DF7A22467A88100786A3E /* WXCommDevice.m in Sources */,
-				348DF7982467A88100786A3E /* WXAnimatedImageUtil.m in Sources */,
-				348DF7472467A88100786A3E /* NBMetadataHelper.m in Sources */,
 				348DF75D2467A88100786A3E /* aeskey.c in Sources */,
-				348DF73F2467A88100786A3E /* NBRegularExpressionCache.m in Sources */,
+				348DF80E246924A500786A3E /* WXCloudUploadAuthEntity.m in Sources */,
+				348DF847246924A600786A3E /* WXCommShareMetaData.m in Sources */,
+				348DF809246924A500786A3E /* UIFont+WXExtention.m in Sources */,
+				348DF844246924A600786A3E /* WXAccountTools.m in Sources */,
+				348DF843246924A600786A3E /* WXCommPassportInfo.m in Sources */,
+				348DF810246924A500786A3E /* UIView+WXExtention.m in Sources */,
+				348DF81B246924A500786A3E /* WXAutoCheckUpdate.m in Sources */,
 				348DF7702467A88100786A3E /* entropy.c in Sources */,
-				348DF72A2467A88100786A3E /* UIImage+WXExtension.m in Sources */,
-				348DF7042467A88100786A3E /* WXCommReport.m in Sources */,
-				348DF79E2467A88100786A3E /* WXAppTools.m in Sources */,
-				348DF6F42467A88100786A3E /* WXCommLog.m in Sources */,
-				348DF7882467A88100786A3E /* WXDataBaseManage.m in Sources */,
-				348DF7A62467A88100786A3E /* WXCloudUploadAuthEntity.m in Sources */,
-				348DF7372467A88100786A3E /* NBPhoneMetaData.m in Sources */,
-				348DF6FB2467A88100786A3E /* WXCommLang.m in Sources */,
-				348DF7392467A88100786A3E /* NSArray+NBAdditions.m in Sources */,
-				348DF7282467A88100786A3E /* UILabel+Gradient.m in Sources */,
-				348DF79B2467A88100786A3E /* WXAutoCheckUpdate.m in Sources */,
-				348DF73E2467A88100786A3E /* NBRegExMatcher.m in Sources */,
-				348DF7272467A88100786A3E /* UIButton+WXEdgeExtension.m in Sources */,
-				348DF7022467A88100786A3E /* WXCommShare.m in Sources */,
+				348DF823246924A500786A3E /* WXEasyHttp.m in Sources */,
+				348DF802246924A500786A3E /* WXCommInterface.m in Sources */,
+				348DF820246924A500786A3E /* WXTimerAlertView.m in Sources */,
 				348DF7512467A88100786A3E /* unzip.c in Sources */,
-				348DF7A82467A88100786A3E /* WXEasyHttp.m in Sources */,
 				348DF7332467A88100786A3E /* DES.m in Sources */,
+				348DF814246924A500786A3E /* WXCommLog.m in Sources */,
+				348DF80C246924A500786A3E /* WXCommLang.m in Sources */,
 				2E3E9B0E38B8B4B1B319FB615338439B /* WXiOSCommonUtils-dummy.m in Sources */,
+				348DF829246924A500786A3E /* WXAppSysShareController.m in Sources */,
 				348DF76D2467A88100786A3E /* aestab.c in Sources */,
-				348DF70C2467A88100786A3E /* WXCommTools.m in Sources */,
 				348DF7522467A88100786A3E /* zip.c in Sources */,
-				348DF74F2467A88100786A3E /* NBPhoneNumberDefines.m in Sources */,
-				348DF7062467A88100786A3E /* WXCommFeedback.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

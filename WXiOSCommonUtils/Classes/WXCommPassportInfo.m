@@ -9,7 +9,7 @@
 #import "WXCommPassportInfo.h"
 #import "WXAccountTools.h"
 #import "WXAFNetworking.h"
-#import "../WXUserDefaultKit/WXUserDefaultKit.h"
+#import "WXUserDefaultKit.h"
 #import "WXCommTools.h"
 #import "CommPassportHeader.h"
 
