@@ -7,7 +7,7 @@
 //
 
 #import "WXAccountTools.h"
-#import "../WXUserDefaultKit/WXUserDefaultKit.h"
+#import "WXUserDefaultKit.h"
 #import "WXCommPassportInfo.h"
 
 #define kUserDefaultAccountCookiesName                  @"key.userdefault.AccountCookiesName"

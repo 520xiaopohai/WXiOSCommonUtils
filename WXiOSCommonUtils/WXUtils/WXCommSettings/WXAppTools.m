@@ -8,7 +8,7 @@
 
 #import "WXAppTools.h"
 #import "WXUserDefaultKit.h"
-#import "WXParserManager.h"
+//#import "WXParserManager.h"
 
 #define kDefalutLangName  @"English"
 
@@ -16,39 +16,39 @@
 static NSString *_localhostIP = nil;
 
 @implementation WXAppTools
+//
+//
+//+ (NSString *)getValueForKeywords:(NSString *)keywords
+//{
+//    return [WXParserManager getValueForKeywords:keywords parserIdentifier:[self ClientLanguage]];
+//}
+//
+//+ (NSString *)getValueForKeywords:(NSString *)keywords langName:(NSString *)langName
+//{
+//    return [WXParserManager getValueForKey:keywords parserIdentifier:langName];
+//}
 
-
-+ (NSString *)getValueForKeywords:(NSString *)keywords
-{
-    return [WXParserManager getValueForKeywords:keywords parserIdentifier:[self ClientLanguage]];
-}
-
-+ (NSString *)getValueForKeywords:(NSString *)keywords langName:(NSString *)langName
-{
-    return [WXParserManager getValueForKey:keywords parserIdentifier:langName];
-}
-
-+ (void)setCurrentLangName:(NSString *)currentLangName
-{
-    [WXUserDefaultKit saveToUserDefaultsForKey:@"clientLang" ObjectValue:currentLangName];
-    
-    [self parserLang];
-}
-
-+ (void)parserLang
-{
-    NSString *curLangName = [self ClientLanguage];
-    
-    NSString *langFilePath = [[NSBundle mainBundle] pathForResource:curLangName ofType:@"xml"];
-    
-    if (langFilePath != nil){
-        
-        if([WXParserManager parseWithFilePath:langFilePath error:nil]){
-            NSLog(@"init lang succ : %@",curLangName);
-        }
-        
-    }
-}
+//+ (void)setCurrentLangName:(NSString *)currentLangName
+//{
+//    [WXUserDefaultKit saveToUserDefaultsForKey:@"clientLang" ObjectValue:currentLangName];
+//    
+//    [self parserLang];
+//}
+//
+//+ (void)parserLang
+//{
+//    NSString *curLangName = [self ClientLanguage];
+//    
+//    NSString *langFilePath = [[NSBundle mainBundle] pathForResource:curLangName ofType:@"xml"];
+//    
+//    if (langFilePath != nil){
+//        
+//        if([WXParserManager parseWithFilePath:langFilePath error:nil]){
+//            NSLog(@"init lang succ : %@",curLangName);
+//        }
+//        
+//    }
+//}
 
 + (NSString *)ClientLanguage
 {

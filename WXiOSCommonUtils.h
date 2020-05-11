@@ -17,7 +17,7 @@
 #import "WXCommLang.h"
 #import "WXDataBaseManage.h"
 #import "WXAlertView.h"
-#import "AAPLSwipeTransitionDelegate.h"
+//#import "AAPLSwipeTransitionDelegate.h"
 
 
 

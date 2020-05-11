@@ -31,8 +31,6 @@
 		2FE4A54A347D090F7157B56031EBEE73 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4488B62EFF0D6D2153B4145813E0E5FF /* QuartzCore.framework */; };
 		3033C2DE9CB2085ECBB95717CFB6425A /* AFAutoPurgingImageCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 8ECD9F3C1788CF609DC9F593C81D27DA /* AFAutoPurgingImageCache.m */; };
 		32BF1A515F0EDB4D203E0068E8CF14C6 /* YBNetworkCache.h in Headers */ = {isa = PBXBuildFile; fileRef = E8A14796199323FE8A434E7103175C83 /* YBNetworkCache.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		348DF5BD2467A5E700786A3E /* WXTest.h in Headers */ = {isa = PBXBuildFile; fileRef = 348DF5BB2467A5E700786A3E /* WXTest.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		348DF5BE2467A5E700786A3E /* WXTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 348DF5BC2467A5E700786A3E /* WXTest.m */; };
 		348DF6D12467A88100786A3E /* WXiOSCustomUI.h in Headers */ = {isa = PBXBuildFile; fileRef = 348DF5C02467A87F00786A3E /* WXiOSCustomUI.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		348DF6D22467A88100786A3E /* LGtitleBarView.m in Sources */ = {isa = PBXBuildFile; fileRef = 348DF5C22467A87F00786A3E /* LGtitleBarView.m */; };
 		348DF6D32467A88100786A3E /* LGcollectionCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 348DF5C32467A87F00786A3E /* LGcollectionCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -184,25 +182,8 @@
 		348DF7742467A88100786A3E /* WXAccountTools.h in Headers */ = {isa = PBXBuildFile; fileRef = 348DF6862467A88000786A3E /* WXAccountTools.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		348DF7762467A88100786A3E /* WXAccountWebBridge.h in Headers */ = {isa = PBXBuildFile; fileRef = 348DF6882467A88000786A3E /* WXAccountWebBridge.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		348DF7832467A88100786A3E /* WXAccountTools.m in Sources */ = {isa = PBXBuildFile; fileRef = 348DF69A2467A88000786A3E /* WXAccountTools.m */; };
-		348DF7842467A88100786A3E /* WXSandBoxHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 348DF69C2467A88000786A3E /* WXSandBoxHelper.m */; };
-		348DF7852467A88100786A3E /* WXIAPHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 348DF69D2467A88000786A3E /* WXIAPHelper.m */; };
-		348DF7862467A88100786A3E /* WXSandBoxHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = 348DF69E2467A88000786A3E /* WXSandBoxHelper.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		348DF7872467A88100786A3E /* WXIAPHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = 348DF69F2467A88000786A3E /* WXIAPHelper.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		348DF7882467A88100786A3E /* WXDataBaseManage.m in Sources */ = {isa = PBXBuildFile; fileRef = 348DF6A12467A88000786A3E /* WXDataBaseManage.m */; };
 		348DF7892467A88100786A3E /* WXDataBaseManage.h in Headers */ = {isa = PBXBuildFile; fileRef = 348DF6A22467A88000786A3E /* WXDataBaseManage.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		348DF78A2467A88100786A3E /* AAPLSwipeTransitionDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 348DF6A42467A88000786A3E /* AAPLSwipeTransitionDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		348DF78B2467A88100786A3E /* AAPLSwipeTransitionAnimator.m in Sources */ = {isa = PBXBuildFile; fileRef = 348DF6A52467A88000786A3E /* AAPLSwipeTransitionAnimator.m */; };
-		348DF78C2467A88100786A3E /* AAPLSwipeTransitionInteractionController.h in Headers */ = {isa = PBXBuildFile; fileRef = 348DF6A62467A88000786A3E /* AAPLSwipeTransitionInteractionController.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		348DF78D2467A88100786A3E /* AAPLSwipeTransitionDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 348DF6A72467A88000786A3E /* AAPLSwipeTransitionDelegate.m */; };
-		348DF78E2467A88100786A3E /* AAPLSwipeTransitionInteractionController.m in Sources */ = {isa = PBXBuildFile; fileRef = 348DF6A82467A88000786A3E /* AAPLSwipeTransitionInteractionController.m */; };
-		348DF78F2467A88100786A3E /* AAPLSwipeTransitionAnimator.h in Headers */ = {isa = PBXBuildFile; fileRef = 348DF6A92467A88000786A3E /* AAPLSwipeTransitionAnimator.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		348DF7902467A88100786A3E /* XMLParser.h in Headers */ = {isa = PBXBuildFile; fileRef = 348DF6AB2467A88000786A3E /* XMLParser.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		348DF7912467A88100786A3E /* WXParserManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 348DF6AC2467A88000786A3E /* WXParserManager.m */; };
-		348DF7922467A88100786A3E /* XMLNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 348DF6AD2467A88000786A3E /* XMLNode.m */; };
-		348DF7932467A88100786A3E /* XMLNode.h in Headers */ = {isa = PBXBuildFile; fileRef = 348DF6AE2467A88000786A3E /* XMLNode.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		348DF7942467A88100786A3E /* WXParserManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 348DF6AF2467A88000786A3E /* WXParserManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		348DF7952467A88100786A3E /* XMLParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 348DF6B02467A88000786A3E /* XMLParser.m */; };
-		348DF7962467A88100786A3E /* WXParserHeader.h in Headers */ = {isa = PBXBuildFile; fileRef = 348DF6B12467A88000786A3E /* WXParserHeader.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		348DF7972467A88100786A3E /* WXAnimatedImageUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = 348DF6B32467A88000786A3E /* WXAnimatedImageUtil.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		348DF7982467A88100786A3E /* WXAnimatedImageUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 348DF6B42467A88000786A3E /* WXAnimatedImageUtil.m */; };
 		348DF7992467A88100786A3E /* CommiOSProductsJson.json in Resources */ = {isa = PBXBuildFile; fileRef = 348DF6B62467A88000786A3E /* CommiOSProductsJson.json */; };
@@ -295,7 +276,6 @@
 		E17973BC9CEAE4ED0A7492450F95ACEF /* AFURLRequestSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A2414FA1814C1B19E3CDABD022F49D0 /* AFURLRequestSerialization.m */; };
 		E229CC1A0D0A5384A81424F50930FD01 /* YBBaseRequest+Internal.h in Headers */ = {isa = PBXBuildFile; fileRef = 126A59CCD38B5AF136908FD3B42D5866 /* YBBaseRequest+Internal.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E261B82A0EEFE0EA897EA1A36C69C1CE /* AFImageDownloader.h in Headers */ = {isa = PBXBuildFile; fileRef = 831807B065D5903A3840885AAE8BA1DA /* AFImageDownloader.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		E8C31F2ECEC17B8777EEAFF55703AB16 /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A0473AF88F8D8374E9252DD8DE348EB /* ReplaceMe.m */; };
 		E99EFB8D71AC40C40DFD9DEC2FAED44F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DE4C4076E293CC51E5049C291D0913A /* Foundation.framework */; };
 		F14A81E5FBDE429FCB04266264DC8B1C /* Pods-WXiOSCommonUtils_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CACD3A420A42BD8168624D9D9C061368 /* Pods-WXiOSCommonUtils_Example-dummy.m */; };
 		F2BB44D4B3A7FC3E4480555FE8009E4F /* YYImage.h in Headers */ = {isa = PBXBuildFile; fileRef = A1B9B4AED948FD52A09517AF1948D53F /* YYImage.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -397,7 +377,6 @@
 		173B1AA6D55F452944122BF9017CE1FF /* AFURLSessionManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFURLSessionManager.m; path = AFNetworking/AFURLSessionManager.m; sourceTree = "<group>"; };
 		180E2F85A68DC69164FC880477D37DF1 /* AFNetworking.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AFNetworking.debug.xcconfig; sourceTree = "<group>"; };
 		1821C6E04E2E86F485BB2E47B5821BB7 /* YYImage-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "YYImage-prefix.pch"; sourceTree = "<group>"; };
-		1A0473AF88F8D8374E9252DD8DE348EB /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReplaceMe.m; path = WXiOSCommonUtils/Classes/ReplaceMe.m; sourceTree = "<group>"; };
 		1DE4C4076E293CC51E5049C291D0913A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		1FD95443E6CDD55DF903CD738F06EBE1 /* WXiOSCommonUtils.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = WXiOSCommonUtils.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		1FEF752BBBD37F88FCF99E96C83D2D21 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
@@ -406,8 +385,6 @@
 		2B97C2133CC29EB8B9758B6A3407F6EB /* UIProgressView+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIProgressView+AFNetworking.h"; path = "UIKit+AFNetworking/UIProgressView+AFNetworking.h"; sourceTree = "<group>"; };
 		2D2F9F1AFA311BAC774A0145CC36A4E0 /* YYCache.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = YYCache.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2E18E6748F9F7C6E0963DCC94553B85A /* YBNetworkCache+Internal.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "YBNetworkCache+Internal.h"; path = "YBNetwork/Cache/YBNetworkCache+Internal.h"; sourceTree = "<group>"; };
-		348DF5BB2467A5E700786A3E /* WXTest.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WXTest.h; sourceTree = "<group>"; };
-		348DF5BC2467A5E700786A3E /* WXTest.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WXTest.m; sourceTree = "<group>"; };
 		348DF5C02467A87F00786A3E /* WXiOSCustomUI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXiOSCustomUI.h; sourceTree = "<group>"; };
 		348DF5C22467A87F00786A3E /* LGtitleBarView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LGtitleBarView.m; sourceTree = "<group>"; };
 		348DF5C32467A87F00786A3E /* LGcollectionCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LGcollectionCell.h; sourceTree = "<group>"; };
@@ -560,25 +537,8 @@
 		348DF6862467A88000786A3E /* WXAccountTools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXAccountTools.h; sourceTree = "<group>"; };
 		348DF6882467A88000786A3E /* WXAccountWebBridge.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXAccountWebBridge.h; sourceTree = "<group>"; };
 		348DF69A2467A88000786A3E /* WXAccountTools.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WXAccountTools.m; sourceTree = "<group>"; };
-		348DF69C2467A88000786A3E /* WXSandBoxHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WXSandBoxHelper.m; sourceTree = "<group>"; };
-		348DF69D2467A88000786A3E /* WXIAPHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WXIAPHelper.m; sourceTree = "<group>"; };
-		348DF69E2467A88000786A3E /* WXSandBoxHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXSandBoxHelper.h; sourceTree = "<group>"; };
-		348DF69F2467A88000786A3E /* WXIAPHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXIAPHelper.h; sourceTree = "<group>"; };
 		348DF6A12467A88000786A3E /* WXDataBaseManage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WXDataBaseManage.m; sourceTree = "<group>"; };
 		348DF6A22467A88000786A3E /* WXDataBaseManage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXDataBaseManage.h; sourceTree = "<group>"; };
-		348DF6A42467A88000786A3E /* AAPLSwipeTransitionDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AAPLSwipeTransitionDelegate.h; sourceTree = "<group>"; };
-		348DF6A52467A88000786A3E /* AAPLSwipeTransitionAnimator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AAPLSwipeTransitionAnimator.m; sourceTree = "<group>"; };
-		348DF6A62467A88000786A3E /* AAPLSwipeTransitionInteractionController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AAPLSwipeTransitionInteractionController.h; sourceTree = "<group>"; };
-		348DF6A72467A88000786A3E /* AAPLSwipeTransitionDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AAPLSwipeTransitionDelegate.m; sourceTree = "<group>"; };
-		348DF6A82467A88000786A3E /* AAPLSwipeTransitionInteractionController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AAPLSwipeTransitionInteractionController.m; sourceTree = "<group>"; };
-		348DF6A92467A88000786A3E /* AAPLSwipeTransitionAnimator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AAPLSwipeTransitionAnimator.h; sourceTree = "<group>"; };
-		348DF6AB2467A88000786A3E /* XMLParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMLParser.h; sourceTree = "<group>"; };
-		348DF6AC2467A88000786A3E /* WXParserManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WXParserManager.m; sourceTree = "<group>"; };
-		348DF6AD2467A88000786A3E /* XMLNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XMLNode.m; sourceTree = "<group>"; };
-		348DF6AE2467A88000786A3E /* XMLNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMLNode.h; sourceTree = "<group>"; };
-		348DF6AF2467A88000786A3E /* WXParserManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXParserManager.h; sourceTree = "<group>"; };
-		348DF6B02467A88000786A3E /* XMLParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XMLParser.m; sourceTree = "<group>"; };
-		348DF6B12467A88000786A3E /* WXParserHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXParserHeader.h; sourceTree = "<group>"; };
 		348DF6B32467A88000786A3E /* WXAnimatedImageUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXAnimatedImageUtil.h; sourceTree = "<group>"; };
 		348DF6B42467A88000786A3E /* WXAnimatedImageUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WXAnimatedImageUtil.m; sourceTree = "<group>"; };
 		348DF6B62467A88000786A3E /* CommiOSProductsJson.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = CommiOSProductsJson.json; sourceTree = "<group>"; };
@@ -890,10 +850,10 @@
 		348DF5BF2467A87F00786A3E /* WXCustomUI */ = {
 			isa = PBXGroup;
 			children = (
-				348DF5C02467A87F00786A3E /* WXiOSCustomUI.h */,
 				348DF5C12467A87F00786A3E /* TitleBarView */,
-				348DF5C62467A87F00786A3E /* CustomUI.md */,
+				348DF5C02467A87F00786A3E /* WXiOSCustomUI.h */,
 				348DF5C72467A87F00786A3E /* WXiOSCustomUI.m */,
+				348DF5C62467A87F00786A3E /* CustomUI.md */,
 			);
 			name = WXCustomUI;
 			path = WXiOSCommonUtils/WXCustomUI;
@@ -913,6 +873,7 @@
 		348DF5C82467A88000786A3E /* WXiOSCommonUtilsSource */ = {
 			isa = PBXGroup;
 			children = (
+				348DF6B62467A88000786A3E /* CommiOSProductsJson.json */,
 				348DF5C92467A88000786A3E /* Localizable.strings */,
 				348DF5CC2467A88000786A3E /* UserCenterSource */,
 			);
@@ -966,22 +927,17 @@
 			children = (
 				348DF5EA2467A88000786A3E /* WXCommLog */,
 				348DF5ED2467A88000786A3E /* WXCommKeychain */,
-				348DF5F02467A88000786A3E /* Interface */,
+				348DF5F02467A88000786A3E /* WXInterface */,
 				348DF6042467A88000786A3E /* WXCommTools */,
 				348DF6072467A88000786A3E /* WXCustomView */,
-				348DF60D2467A88000786A3E /* CommShare */,
+				348DF60D2467A88000786A3E /* WXCommShare */,
 				348DF61D2467A88000786A3E /* Category */,
-				348DF6332467A88000786A3E /* Utils */,
 				348DF6842467A88000786A3E /* WXAccountCenter */,
-				348DF69B2467A88000786A3E /* WXIAPTools */,
 				348DF6A02467A88000786A3E /* WXDatabaseManager */,
-				348DF6A32467A88000786A3E /* WXAnimation */,
-				348DF6AA2467A88000786A3E /* WXXMLParserKit */,
 				348DF6B22467A88000786A3E /* WXAnimatedImageView */,
-				348DF6B52467A88000786A3E /* Resource */,
 				348DF6B72467A88000786A3E /* WXCommPassportInfo */,
 				348DF6B92467A88000786A3E /* WXAutoCheckUpdate */,
-				348DF6BD2467A88000786A3E /* CommSettings */,
+				348DF6BD2467A88000786A3E /* WXCommSettings */,
 				348DF6C22467A88000786A3E /* WXCommDevice */,
 				348DF6C52467A88000786A3E /* WXNetworkCommInterfce */,
 				348DF6CE2467A88000786A3E /* WXUserDefaultKit */,
@@ -1008,13 +964,12 @@
 			path = WXCommKeychain;
 			sourceTree = "<group>";
 		};
-		348DF5F02467A88000786A3E /* Interface */ = {
+		348DF5F02467A88000786A3E /* WXInterface */ = {
 			isa = PBXGroup;
 			children = (
 				348DF5F12467A88000786A3E /* WXCommReport.h */,
 				348DF5F22467A88000786A3E /* WXCommShare.h */,
 				348DF5F42467A88000786A3E /* WXCommLang.m */,
-				348DF5F52467A88000786A3E /* WXiOSCommonUtils.h */,
 				348DF5F62467A88000786A3E /* WXCommFeedback.h */,
 				348DF5F72467A88000786A3E /* WXCommAppInfo.m */,
 				348DF5F82467A88000786A3E /* WXCommPassportInfo.h */,
@@ -1024,12 +979,11 @@
 				348DF5FD2467A88000786A3E /* WXCommReport.m */,
 				348DF5FE2467A88000786A3E /* WXCommAppInfo.h */,
 				348DF5FF2467A88000786A3E /* WXCommFeedback.m */,
-				348DF6002467A88000786A3E /* WXiOSCommonUtils.m */,
 				348DF6012467A88000786A3E /* WXCommLang.h */,
 				348DF6022467A88000786A3E /* WXCommProductInfo.h */,
 				348DF6032467A88000786A3E /* WXCommPassportInfo.m */,
 			);
-			path = Interface;
+			path = WXInterface;
 			sourceTree = "<group>";
 		};
 		348DF6042467A88000786A3E /* WXCommTools */ = {
@@ -1044,44 +998,30 @@
 		348DF6072467A88000786A3E /* WXCustomView */ = {
 			isa = PBXGroup;
 			children = (
-				348DF6082467A88000786A3E /* WXAlertView */,
-			);
-			path = WXCustomView;
-			sourceTree = "<group>";
-		};
-		348DF6082467A88000786A3E /* WXAlertView */ = {
-			isa = PBXGroup;
-			children = (
 				348DF6092467A88000786A3E /* WXAlertView.h */,
 				348DF60A2467A88000786A3E /* WXTimerAlertView.m */,
 				348DF60B2467A88000786A3E /* WXAlertView.m */,
 				348DF60C2467A88000786A3E /* WXTimerAlertView.h */,
 			);
-			path = WXAlertView;
+			path = WXCustomView;
 			sourceTree = "<group>";
 		};
-		348DF60D2467A88000786A3E /* CommShare */ = {
+		348DF60D2467A88000786A3E /* WXCommShare */ = {
 			isa = PBXGroup;
 			children = (
 				348DF60E2467A88000786A3E /* WXAppSysShareController.h */,
 				348DF6102467A88000786A3E /* WXCommShareMetaData.h */,
 				348DF6122467A88000786A3E /* WXAppSysShareController.m */,
 				348DF6132467A88000786A3E /* WXCommShareMetaData.m */,
-				348DF6142467A88000786A3E /* WXNetworkCommInterfce */,
 			);
-			path = CommShare;
-			sourceTree = "<group>";
-		};
-		348DF6142467A88000786A3E /* WXNetworkCommInterfce */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = WXNetworkCommInterfce;
+			path = WXCommShare;
 			sourceTree = "<group>";
 		};
 		348DF61D2467A88000786A3E /* Category */ = {
 			isa = PBXGroup;
 			children = (
+				348DF6312467A88000786A3E /* NSObject+WXCoding.m */,
+				348DF6322467A88000786A3E /* NSObject+WXCoding.h */,
 				348DF61E2467A88000786A3E /* NSString+WXExtension.m */,
 				348DF61F2467A88000786A3E /* UILabel+Gradient.h */,
 				348DF6202467A88000786A3E /* UIFont+WXExtention.m */,
@@ -1100,72 +1040,18 @@
 				348DF62D2467A88000786A3E /* UIButton+imageTextEdgeInsets.m */,
 				348DF62E2467A88000786A3E /* UIButton+WXEdgeExtension.h */,
 				348DF62F2467A88000786A3E /* UIImageView+WXAnimated.h */,
-				348DF6302467A88000786A3E /* NSObject+WXCoding */,
 			);
 			path = Category;
-			sourceTree = "<group>";
-		};
-		348DF6302467A88000786A3E /* NSObject+WXCoding */ = {
-			isa = PBXGroup;
-			children = (
-				348DF6312467A88000786A3E /* NSObject+WXCoding.m */,
-				348DF6322467A88000786A3E /* NSObject+WXCoding.h */,
-			);
-			path = "NSObject+WXCoding";
 			sourceTree = "<group>";
 		};
 		348DF6332467A88000786A3E /* Utils */ = {
 			isa = PBXGroup;
 			children = (
-				348DF6342467A88000786A3E /* YYCache */,
-				348DF6352467A88000786A3E /* YBNetwork */,
 				348DF6392467A88000786A3E /* DES */,
-				348DF63C2467A88000786A3E /* YYImage */,
-				348DF63D2467A88000786A3E /* Masonry */,
-				348DF63E2467A88000786A3E /* TextField */,
 				348DF63F2467A88000786A3E /* libPhoneNumber */,
 				348DF65C2467A88000786A3E /* ZipArchive */,
-				348DF6802467A88000786A3E /* AFNetworking */,
 			);
 			path = Utils;
-			sourceTree = "<group>";
-		};
-		348DF6342467A88000786A3E /* YYCache */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = YYCache;
-			sourceTree = "<group>";
-		};
-		348DF6352467A88000786A3E /* YBNetwork */ = {
-			isa = PBXGroup;
-			children = (
-				348DF6362467A88000786A3E /* Response */,
-				348DF6372467A88000786A3E /* Cache */,
-				348DF6382467A88000786A3E /* Manger */,
-			);
-			path = YBNetwork;
-			sourceTree = "<group>";
-		};
-		348DF6362467A88000786A3E /* Response */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Response;
-			sourceTree = "<group>";
-		};
-		348DF6372467A88000786A3E /* Cache */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Cache;
-			sourceTree = "<group>";
-		};
-		348DF6382467A88000786A3E /* Manger */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Manger;
 			sourceTree = "<group>";
 		};
 		348DF6392467A88000786A3E /* DES */ = {
@@ -1175,27 +1061,6 @@
 				348DF63B2467A88000786A3E /* DES.h */,
 			);
 			path = DES;
-			sourceTree = "<group>";
-		};
-		348DF63C2467A88000786A3E /* YYImage */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = YYImage;
-			sourceTree = "<group>";
-		};
-		348DF63D2467A88000786A3E /* Masonry */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Masonry;
-			sourceTree = "<group>";
-		};
-		348DF63E2467A88000786A3E /* TextField */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = TextField;
 			sourceTree = "<group>";
 		};
 		348DF63F2467A88000786A3E /* libPhoneNumber */ = {
@@ -1208,7 +1073,10 @@
 				348DF6442467A88000786A3E /* NSArray+NBAdditions.m */,
 				348DF6452467A88000786A3E /* NBMetadataHelper.h */,
 				348DF6462467A88000786A3E /* NBPhoneNumberDefines.h */,
-				348DF6472467A88000786A3E /* Internal */,
+				348DF6482467A88000786A3E /* NBRegExMatcher.h */,
+				348DF6492467A88000786A3E /* NBRegularExpressionCache.h */,
+				348DF64A2467A88000786A3E /* NBRegExMatcher.m */,
+				348DF64B2467A88000786A3E /* NBRegularExpressionCache.m */,
 				348DF64C2467A88000786A3E /* GeneratePhoneNumberHeader.sh */,
 				348DF64D2467A88000786A3E /* NBNumberFormat.m */,
 				348DF64E2467A88000786A3E /* NBPhoneNumberDesc.h */,
@@ -1229,32 +1097,11 @@
 			path = libPhoneNumber;
 			sourceTree = "<group>";
 		};
-		348DF6472467A88000786A3E /* Internal */ = {
-			isa = PBXGroup;
-			children = (
-				348DF6482467A88000786A3E /* NBRegExMatcher.h */,
-				348DF6492467A88000786A3E /* NBRegularExpressionCache.h */,
-				348DF64A2467A88000786A3E /* NBRegExMatcher.m */,
-				348DF64B2467A88000786A3E /* NBRegularExpressionCache.m */,
-			);
-			path = Internal;
-			sourceTree = "<group>";
-		};
 		348DF65C2467A88000786A3E /* ZipArchive */ = {
 			isa = PBXGroup;
 			children = (
 				348DF65D2467A88000786A3E /* ZipArchive.h */,
-				348DF65E2467A88000786A3E /* minizip */,
-				348DF6682467A88000786A3E /* Common.h */,
 				348DF6692467A88000786A3E /* ZipArchive.mm */,
-				348DF66A2467A88000786A3E /* aes */,
-			);
-			path = ZipArchive;
-			sourceTree = "<group>";
-		};
-		348DF65E2467A88000786A3E /* minizip */ = {
-			isa = PBXGroup;
-			children = (
 				348DF65F2467A88000786A3E /* unzip.c */,
 				348DF6602467A88000786A3E /* zip.c */,
 				348DF6612467A88000786A3E /* ioapi.c */,
@@ -1264,13 +1111,7 @@
 				348DF6652467A88000786A3E /* unzip.h */,
 				348DF6662467A88000786A3E /* mztools.h */,
 				348DF6672467A88000786A3E /* ioapi.h */,
-			);
-			path = minizip;
-			sourceTree = "<group>";
-		};
-		348DF66A2467A88000786A3E /* aes */ = {
-			isa = PBXGroup;
-			children = (
+				348DF6682467A88000786A3E /* Common.h */,
 				348DF66B2467A88000786A3E /* prng.h */,
 				348DF66C2467A88000786A3E /* aeskey.c */,
 				348DF66D2467A88000786A3E /* hmac.c */,
@@ -1293,14 +1134,7 @@
 				348DF67E2467A88000786A3E /* fileenc.h */,
 				348DF67F2467A88000786A3E /* entropy.c */,
 			);
-			path = aes;
-			sourceTree = "<group>";
-		};
-		348DF6802467A88000786A3E /* AFNetworking */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = AFNetworking;
+			path = ZipArchive;
 			sourceTree = "<group>";
 		};
 		348DF6842467A88000786A3E /* WXAccountCenter */ = {
@@ -1314,17 +1148,6 @@
 			path = WXAccountCenter;
 			sourceTree = "<group>";
 		};
-		348DF69B2467A88000786A3E /* WXIAPTools */ = {
-			isa = PBXGroup;
-			children = (
-				348DF69C2467A88000786A3E /* WXSandBoxHelper.m */,
-				348DF69D2467A88000786A3E /* WXIAPHelper.m */,
-				348DF69E2467A88000786A3E /* WXSandBoxHelper.h */,
-				348DF69F2467A88000786A3E /* WXIAPHelper.h */,
-			);
-			path = WXIAPTools;
-			sourceTree = "<group>";
-		};
 		348DF6A02467A88000786A3E /* WXDatabaseManager */ = {
 			isa = PBXGroup;
 			children = (
@@ -1334,33 +1157,6 @@
 			path = WXDatabaseManager;
 			sourceTree = "<group>";
 		};
-		348DF6A32467A88000786A3E /* WXAnimation */ = {
-			isa = PBXGroup;
-			children = (
-				348DF6A42467A88000786A3E /* AAPLSwipeTransitionDelegate.h */,
-				348DF6A52467A88000786A3E /* AAPLSwipeTransitionAnimator.m */,
-				348DF6A62467A88000786A3E /* AAPLSwipeTransitionInteractionController.h */,
-				348DF6A72467A88000786A3E /* AAPLSwipeTransitionDelegate.m */,
-				348DF6A82467A88000786A3E /* AAPLSwipeTransitionInteractionController.m */,
-				348DF6A92467A88000786A3E /* AAPLSwipeTransitionAnimator.h */,
-			);
-			path = WXAnimation;
-			sourceTree = "<group>";
-		};
-		348DF6AA2467A88000786A3E /* WXXMLParserKit */ = {
-			isa = PBXGroup;
-			children = (
-				348DF6AB2467A88000786A3E /* XMLParser.h */,
-				348DF6AC2467A88000786A3E /* WXParserManager.m */,
-				348DF6AD2467A88000786A3E /* XMLNode.m */,
-				348DF6AE2467A88000786A3E /* XMLNode.h */,
-				348DF6AF2467A88000786A3E /* WXParserManager.h */,
-				348DF6B02467A88000786A3E /* XMLParser.m */,
-				348DF6B12467A88000786A3E /* WXParserHeader.h */,
-			);
-			path = WXXMLParserKit;
-			sourceTree = "<group>";
-		};
 		348DF6B22467A88000786A3E /* WXAnimatedImageView */ = {
 			isa = PBXGroup;
 			children = (
@@ -1368,14 +1164,6 @@
 				348DF6B42467A88000786A3E /* WXAnimatedImageUtil.m */,
 			);
 			path = WXAnimatedImageView;
-			sourceTree = "<group>";
-		};
-		348DF6B52467A88000786A3E /* Resource */ = {
-			isa = PBXGroup;
-			children = (
-				348DF6B62467A88000786A3E /* CommiOSProductsJson.json */,
-			);
-			path = Resource;
 			sourceTree = "<group>";
 		};
 		348DF6B72467A88000786A3E /* WXCommPassportInfo */ = {
@@ -1395,15 +1183,15 @@
 			path = WXAutoCheckUpdate;
 			sourceTree = "<group>";
 		};
-		348DF6BD2467A88000786A3E /* CommSettings */ = {
+		348DF6BD2467A88000786A3E /* WXCommSettings */ = {
 			isa = PBXGroup;
 			children = (
+				348DF6C12467A88000786A3E /* WXAppTools.h */,
 				348DF6BE2467A88000786A3E /* WXAppTools.m */,
 				348DF6BF2467A88000786A3E /* WXCommSettings.m */,
 				348DF6C02467A88000786A3E /* WXCommSettings.h */,
-				348DF6C12467A88000786A3E /* WXAppTools.h */,
 			);
-			path = CommSettings;
+			path = WXCommSettings;
 			sourceTree = "<group>";
 		};
 		348DF6C22467A88000786A3E /* WXCommDevice */ = {
@@ -1418,14 +1206,14 @@
 		348DF6C52467A88000786A3E /* WXNetworkCommInterfce */ = {
 			isa = PBXGroup;
 			children = (
-				348DF6C62467A88000786A3E /* WXCommInterface.m */,
 				348DF6C72467A88000786A3E /* WXEasyHttp.h */,
-				348DF6C82467A88000786A3E /* WXCloudUploadAuthEntity.m */,
-				348DF6C92467A88000786A3E /* WXAFNetworking.m */,
 				348DF6CA2467A88000786A3E /* WXEasyHttp.m */,
 				348DF6CB2467A88000786A3E /* WXCommInterface.h */,
-				348DF6CC2467A88000786A3E /* WXAFNetworking.h */,
+				348DF6C62467A88000786A3E /* WXCommInterface.m */,
 				348DF6CD2467A88000786A3E /* WXCloudUploadAuthEntity.h */,
+				348DF6C82467A88000786A3E /* WXCloudUploadAuthEntity.m */,
+				348DF6CC2467A88000786A3E /* WXAFNetworking.h */,
+				348DF6C92467A88000786A3E /* WXAFNetworking.m */,
 			);
 			path = WXNetworkCommInterfce;
 			sourceTree = "<group>";
@@ -1433,8 +1221,8 @@
 		348DF6CE2467A88000786A3E /* WXUserDefaultKit */ = {
 			isa = PBXGroup;
 			children = (
-				348DF6CF2467A88000786A3E /* WXUserDefaultKit.m */,
 				348DF6D02467A88000786A3E /* WXUserDefaultKit.h */,
+				348DF6CF2467A88000786A3E /* WXUserDefaultKit.m */,
 			);
 			path = WXUserDefaultKit;
 			sourceTree = "<group>";
@@ -1442,12 +1230,12 @@
 		381C4269270DB098D2C33AF82218CE68 /* WXiOSCommonUtils */ = {
 			isa = PBXGroup;
 			children = (
+				348DF5F52467A88000786A3E /* WXiOSCommonUtils.h */,
+				348DF6002467A88000786A3E /* WXiOSCommonUtils.m */,
+				348DF6332467A88000786A3E /* Utils */,
 				348DF5BF2467A87F00786A3E /* WXCustomUI */,
 				348DF5C82467A88000786A3E /* WXiOSCommonUtilsSource */,
 				348DF5E92467A88000786A3E /* WXUtils */,
-				1A0473AF88F8D8374E9252DD8DE348EB /* ReplaceMe.m */,
-				348DF5BB2467A5E700786A3E /* WXTest.h */,
-				348DF5BC2467A5E700786A3E /* WXTest.m */,
 				C3ED0184152900C75F1D964C89E89825 /* Pod */,
 				BD96C8EAB1E89CE901D8D05740271EDC /* Support Files */,
 			);
@@ -1747,16 +1535,12 @@
 				348DF7592467A88100786A3E /* ioapi.h in Headers */,
 				348DF7462467A88100786A3E /* NBPhoneMetaData.h in Headers */,
 				348DF70B2467A88100786A3E /* WXCommTools.h in Headers */,
-				348DF7902467A88100786A3E /* XMLParser.h in Headers */,
 				348DF6FF2467A88100786A3E /* WXCommPassportInfo.h in Headers */,
 				348DF75C2467A88100786A3E /* prng.h in Headers */,
 				348DF7482467A88100786A3E /* NSArray+NBAdditions.h in Headers */,
 				348DF7582467A88100786A3E /* mztools.h in Headers */,
 				348DF7AA2467A88100786A3E /* WXAFNetworking.h in Headers */,
-				348DF7942467A88100786A3E /* WXParserManager.h in Headers */,
 				348DF7232467A88100786A3E /* UIImage+WXExtension.h in Headers */,
-				348DF7932467A88100786A3E /* XMLNode.h in Headers */,
-				348DF5BD2467A5E700786A3E /* WXTest.h in Headers */,
 				348DF75A2467A88100786A3E /* Common.h in Headers */,
 				348DF72F2467A88100786A3E /* UIButton+WXEdgeExtension.h in Headers */,
 				348DF7602467A88100786A3E /* pwd2key.h in Headers */,
@@ -1765,7 +1549,6 @@
 				348DF7032467A88100786A3E /* WXCommDefine.h in Headers */,
 				348DF7252467A88100786A3E /* UIButton+imageTextEdgeInsets.h in Headers */,
 				348DF7132467A88100786A3E /* WXCommShareMetaData.h in Headers */,
-				348DF78A2467A88100786A3E /* AAPLSwipeTransitionDelegate.h in Headers */,
 				348DF7A12467A88100786A3E /* WXAppTools.h in Headers */,
 				348DF7632467A88100786A3E /* aesopt.h in Headers */,
 				348DF7322467A88100786A3E /* NSObject+WXCoding.h in Headers */,
@@ -1780,9 +1563,7 @@
 				348DF72B2467A88100786A3E /* UIView+WXExtention.h in Headers */,
 				348DF73B2467A88100786A3E /* NBPhoneNumberDefines.h in Headers */,
 				348DF7552467A88100786A3E /* crypt.h in Headers */,
-				348DF7872467A88100786A3E /* WXIAPHelper.h in Headers */,
 				348DF7102467A88100786A3E /* WXTimerAlertView.h in Headers */,
-				348DF7962467A88100786A3E /* WXParserHeader.h in Headers */,
 				348DF73A2467A88100786A3E /* NBMetadataHelper.h in Headers */,
 				348DF6F52467A88100786A3E /* WXCommLog.h in Headers */,
 				348DF7202467A88100786A3E /* UILabel+Gradient.h in Headers */,
@@ -1793,10 +1574,8 @@
 				348DF7292467A88100786A3E /* NSString+WXExtension.h in Headers */,
 				348DF74C2467A88100786A3E /* NBPhoneNumberUtil+ShortNumber.h in Headers */,
 				348DF7442467A88100786A3E /* NBAsYouTypeFormatter.h in Headers */,
-				348DF78C2467A88100786A3E /* AAPLSwipeTransitionInteractionController.h in Headers */,
 				348DF7672467A88100786A3E /* entropy.h in Headers */,
 				348DF7662467A88100786A3E /* brg_types.h in Headers */,
-				348DF7862467A88100786A3E /* WXSandBoxHelper.h in Headers */,
 				348DF7572467A88100786A3E /* unzip.h in Headers */,
 				348DF7642467A88100786A3E /* aes_via_ace.h in Headers */,
 				348DF72D2467A88100786A3E /* UIFont+WXExtention.h in Headers */,
@@ -1823,7 +1602,6 @@
 				348DF7082467A88100786A3E /* WXCommLang.h in Headers */,
 				348DF76E2467A88100786A3E /* sha1.h in Headers */,
 				348DF70D2467A88100786A3E /* WXAlertView.h in Headers */,
-				348DF78F2467A88100786A3E /* AAPLSwipeTransitionAnimator.h in Headers */,
 				CE9B542203521A02DAEE0ECA19972195 /* WXiOSCommonUtils-umbrella.h in Headers */,
 				348DF6FD2467A88100786A3E /* WXCommFeedback.h in Headers */,
 				348DF6D32467A88100786A3E /* LGcollectionCell.h in Headers */,
@@ -2217,7 +1995,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				348DF7952467A88100786A3E /* XMLParser.m in Sources */,
 				348DF7652467A88100786A3E /* sha1.c in Sources */,
 				348DF71F2467A88100786A3E /* NSString+WXExtension.m in Sources */,
 				348DF7AC2467A88100786A3E /* WXUserDefaultKit.m in Sources */,
@@ -2241,9 +2018,7 @@
 				348DF7A42467A88100786A3E /* WXCommInterface.m in Sources */,
 				348DF75B2467A88100786A3E /* ZipArchive.mm in Sources */,
 				348DF6F62467A88100786A3E /* WXCommKeychain.m in Sources */,
-				348DF7912467A88100786A3E /* WXParserManager.m in Sources */,
 				348DF7312467A88100786A3E /* NSObject+WXCoding.m in Sources */,
-				E8C31F2ECEC17B8777EEAFF55703AB16 /* ReplaceMe.m in Sources */,
 				348DF7382467A88100786A3E /* NBPhoneNumberUtil.m in Sources */,
 				348DF7262467A88100786A3E /* UIImageView+WXAnimated.m in Sources */,
 				348DF70F2467A88100786A3E /* WXAlertView.m in Sources */,
@@ -2260,12 +2035,9 @@
 				348DF7832467A88100786A3E /* WXAccountTools.m in Sources */,
 				348DF7002467A88100786A3E /* WXCommProductInfo.m in Sources */,
 				348DF7732467A88100786A3E /* WXAccountWebBridge.m in Sources */,
-				348DF7852467A88100786A3E /* WXIAPHelper.m in Sources */,
-				348DF5BE2467A5E700786A3E /* WXTest.m in Sources */,
 				348DF7A22467A88100786A3E /* WXCommDevice.m in Sources */,
 				348DF7982467A88100786A3E /* WXAnimatedImageUtil.m in Sources */,
 				348DF7472467A88100786A3E /* NBMetadataHelper.m in Sources */,
-				348DF78D2467A88100786A3E /* AAPLSwipeTransitionDelegate.m in Sources */,
 				348DF75D2467A88100786A3E /* aeskey.c in Sources */,
 				348DF73F2467A88100786A3E /* NBRegularExpressionCache.m in Sources */,
 				348DF7702467A88100786A3E /* entropy.c in Sources */,
@@ -2282,20 +2054,16 @@
 				348DF79B2467A88100786A3E /* WXAutoCheckUpdate.m in Sources */,
 				348DF73E2467A88100786A3E /* NBRegExMatcher.m in Sources */,
 				348DF7272467A88100786A3E /* UIButton+WXEdgeExtension.m in Sources */,
-				348DF78E2467A88100786A3E /* AAPLSwipeTransitionInteractionController.m in Sources */,
 				348DF7022467A88100786A3E /* WXCommShare.m in Sources */,
 				348DF7512467A88100786A3E /* unzip.c in Sources */,
-				348DF7842467A88100786A3E /* WXSandBoxHelper.m in Sources */,
 				348DF7A82467A88100786A3E /* WXEasyHttp.m in Sources */,
 				348DF7332467A88100786A3E /* DES.m in Sources */,
 				2E3E9B0E38B8B4B1B319FB615338439B /* WXiOSCommonUtils-dummy.m in Sources */,
 				348DF76D2467A88100786A3E /* aestab.c in Sources */,
 				348DF70C2467A88100786A3E /* WXCommTools.m in Sources */,
-				348DF78B2467A88100786A3E /* AAPLSwipeTransitionAnimator.m in Sources */,
 				348DF7522467A88100786A3E /* zip.c in Sources */,
 				348DF74F2467A88100786A3E /* NBPhoneNumberDefines.m in Sources */,
 				348DF7062467A88100786A3E /* WXCommFeedback.m in Sources */,
-				348DF7922467A88100786A3E /* XMLNode.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

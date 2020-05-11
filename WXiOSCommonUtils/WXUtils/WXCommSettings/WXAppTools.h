@@ -21,7 +21,7 @@ NS_ASSUME_NONNULL_BEGIN
  */
 + (NSString *)ClientLanguage;
 
-+ (NSString *)getValueForKeywords:(NSString *)keywords;
+//+ (NSString *)getValueForKeywords:(NSString *)keywords;
 
 
 #pragma mark 文件路径

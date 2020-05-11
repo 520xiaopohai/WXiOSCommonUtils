@@ -7,7 +7,7 @@
 //
 
 #import "WXAFNetworking.h"
-#import "AFNetworking.h"
+#import <AFNetworking/AFNetworking.h>
 #import "WXCommDevice.h"
 #import "WXCommlog.h"
 
