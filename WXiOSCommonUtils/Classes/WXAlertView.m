@@ -216,17 +216,17 @@
     
     _centerView.maskView.alpha = 0;
     [UIView animateWithDuration:0.2 animations:^{
-        _centerView.maskView.alpha = 1;
+        self->_centerView.maskView.alpha = 1;
     }];
     
     _centerView.alpha = 0;
     _centerView.transform = CGAffineTransformScale(CGAffineTransformIdentity, 0.4, 0.4);
     [UIView animateWithDuration:0.2 animations:^{
-        _centerView.alpha = 1;
+        self->_centerView.alpha = 1;
         _centerView.transform = CGAffineTransformScale(CGAffineTransformIdentity, 1.1, 1.1);
     } completion:^(BOOL finished) {
         [UIView animateWithDuration:0.2 delay:0 options:UIViewAnimationOptionCurveEaseOut animations:^{
-            _centerView.alpha = 1;
+            self->_centerView.alpha = 1;
             _centerView.transform = CGAffineTransformScale(CGAffineTransformIdentity, 1, 1);
         } completion:^(BOOL finished2) {}];
     }];

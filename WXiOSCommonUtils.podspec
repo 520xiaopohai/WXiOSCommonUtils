@@ -56,17 +56,10 @@ Pod::Spec.new do |s|
         ss.dependency 'AFNetworking','3.2.1'
         ss.dependency 'WXiOSCommonUtils/Utils/ZipArchive'
         ss.dependency 'WXiOSCommonUtils/Utils/DES'
-        ss.library             = 'sqlite3'
-        ss.xcconfig   = {
-            'HEADER_SEARCH_PATHS' => '$(SDKROOT)/usr/include/CommonCrypto' }
-        ss.frameworks          =
-        'CoreGraphics', 'Foundation', 'SystemConfiguration','Security', 'UIKit'
     end
 
     s.dependency 'YBNetwork'
     s.dependency 'YYImage'
-    s.xcconfig   = {
-        'HEADER_SEARCH_PATHS' => '$(SDKROOT)/usr/include/CommonCrypto' }
     s.library             = 'sqlite3'
     s.frameworks       = 'Foundation', 'UIKit', 'CoreGraphics', 'Photos','Security'
 end
