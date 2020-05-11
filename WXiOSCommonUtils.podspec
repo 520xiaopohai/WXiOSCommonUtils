@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
     s.name             = 'WXiOSCommonUtils'
-    s.version          = '0.1.2'
+    s.version          = '0.1.3'
     s.summary          = 'A short description of WXiOSCommonUtils.'
 
     # This description is used to generate tags and improve search results.
@@ -43,22 +43,10 @@ Pod::Spec.new do |s|
     s.subspec 'Utils' do |ss|
         ss.subspec 'DES' do |sss|
             sss.source_files = 'Utils/DES/*.{h,m}'
-#            sss.xcconfig   = {
-#                'HEADER_SEARCH_PATHS' => '$(SDKROOT)/usr/include/CommonCrypto' }
-#
-#            sss.library             = 'sqlite3', 'CommonCrypto'
-#            sss.frameworks          =
-#            'CoreGraphics', 'Foundation', 'CFNetwork', 'MobileCoreServices', 'SystemConfiguration',
-#            'AssetsLibrary', 'Security', 'UIKit', 'CoreTelephony'
         end
 
         ss.subspec 'ZipArchive' do |sss|
             sss.source_files = 'Utils/ZipArchive/*.{h,m,mm,c}'
-#            sss.xcconfig   = {
-#                'HEADER_SEARCH_PATHS' => '$(SDKROOT)/usr/include/CommonCrypto' }
-#
-#            sss.library             = 'sqlite3', 'CommonCrypto'
-#            sss.frameworks          = 'Security', 'UIKit'
         end
     end
 
@@ -75,10 +63,6 @@ Pod::Spec.new do |s|
         'CoreGraphics', 'Foundation', 'SystemConfiguration','Security', 'UIKit'
     end
 
-
-    # s.public_header_files = 'Pod/Classes/**/*.h'
-    s.xcconfig   = {
-        'HEADER_SEARCH_PATHS' => '$(SDKROOT)/usr/include/CommonCrypto' }
     s.dependency 'YBNetwork'
     s.dependency 'YYImage'
     s.xcconfig   = {
