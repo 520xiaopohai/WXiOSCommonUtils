@@ -63,7 +63,7 @@
 
 //#import "NBPhoneNumberUtil.h"
 
-#import "SSZipArchive.h"
+#import <SSZipArchive/SSZipArchive.h>
 
 //! Project version number for WXiOSCommonUtils.
 FOUNDATION_EXPORT double WXiOSCommonUtilsVersionNumber;
