@@ -9,7 +9,7 @@
 #import "WXiOSCommonUtils.h"
 #import "WXCommAppInfo.h"
 #import "WXCommLog.h"
-#import "CommPassportHeader.h"
+
 
 static WXCommAppInfo *m_appInfo = nil;
 static NSDate *m_appStartTime = nil;

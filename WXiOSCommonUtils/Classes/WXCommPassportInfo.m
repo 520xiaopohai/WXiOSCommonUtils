@@ -11,7 +11,6 @@
 #import "WXAFNetworking.h"
 #import "WXUserDefaultKit.h"
 #import "WXCommTools.h"
-#import "CommPassportHeader.h"
 
 #import "WXCommSettings.h"
 #import "WXCommDevice.h"

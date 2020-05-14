@@ -198,6 +198,7 @@ fi
 
 if [[ "$CONFIGURATION" == "Debug" ]]; then
   install_framework "${BUILT_PRODUCTS_DIR}/AFNetworking/AFNetworking.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/SSZipArchive/SSZipArchive.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/WXiOSCommonUtils/WXiOSCommonUtils.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/YBNetwork/YBNetwork.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/YYCache/YYCache.framework"
@@ -205,6 +206,7 @@ if [[ "$CONFIGURATION" == "Debug" ]]; then
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
   install_framework "${BUILT_PRODUCTS_DIR}/AFNetworking/AFNetworking.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/SSZipArchive/SSZipArchive.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/WXiOSCommonUtils/WXiOSCommonUtils.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/YBNetwork/YBNetwork.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/YYCache/YYCache.framework"

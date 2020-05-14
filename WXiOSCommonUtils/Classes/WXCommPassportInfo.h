@@ -15,6 +15,14 @@ typedef enum : NSUInteger {
     CommPassportType_quarterly, //季度
 } CommPassportType;
 
+
+static NSString *k_passport_license_type = @"passport_license_type";
+static NSString *passport_license_type_trial = @"trial";
+static NSString *passport_license_type_lifetime = @"lifetime";
+static NSString *passport_license_type_yearly = @"yearly";
+static NSString *passport_license_type_quarterly = @"quarterly";
+
+
 /**
  * 注意：修改用户头像时，需要同时提供用户新头像的Base64数据
  */
@@ -72,5 +80,13 @@ typedef void (^checkPassportInfoCompletedResponseBlock) (int status , NSDictiona
 + (NSString *)ApiToken;  // 用来与app功能交互的token
 
 + (void)clearPassportInfo;
+
+
+
++ (void)initPassport;
+
+//+ (NSString *)apiToken;
++ (NSString *)identifyToken;
++ (void)updateUserPassportInfo:(NSDictionary *)dictInfo;
 
 @end

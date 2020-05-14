@@ -8,7 +8,7 @@
 
 #import <Foundation/Foundation.h>
 #import <UIKit/UIKit.h>
-#import "ZipArchive.h"
+#import <SSZipArchive/SSZipArchive.h>
 
 NS_ASSUME_NONNULL_BEGIN
 

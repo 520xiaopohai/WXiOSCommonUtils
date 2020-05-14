@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
     s.name             = 'WXiOSCommonUtils'
-    s.version          = '0.1.3'
+    s.version          = '0.1.4'
     s.summary          = 'A short description of WXiOSCommonUtils.'
 
     # This description is used to generate tags and improve search results.
@@ -28,7 +28,7 @@ Pod::Spec.new do |s|
     s.source           = { :git => 'https://github.com/520xiaopohai/WXiOSCommonUtils.git', :tag => s.version.to_s }
     # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-    s.ios.deployment_target = '9.0'
+    s.ios.deployment_target = '10.0'
 
     s.resource_bundles = {
         'WXiOSCommonUtils' => ['WXiOSCommonUtils/WXiOSCommonUtilsSource/**/*']
@@ -45,9 +45,9 @@ Pod::Spec.new do |s|
             sss.source_files = 'Utils/DES/*.{h,m}'
         end
 
-        ss.subspec 'ZipArchive' do |sss|
-            sss.source_files = 'Utils/ZipArchive/*.{h,m,mm,c}'
-        end
+#        ss.subspec 'ZipArchive' do |sss|
+#            sss.source_files = 'Utils/ZipArchive/*.{h,m,mm,c}'
+#        end
     end
 
 
@@ -56,10 +56,18 @@ Pod::Spec.new do |s|
         ss.dependency 'AFNetworking','3.2.1'
         ss.dependency 'WXiOSCommonUtils/Utils/ZipArchive'
         ss.dependency 'WXiOSCommonUtils/Utils/DES'
+        ss.library             = 'sqlite3'
+        ss.xcconfig   = {
+            'HEADER_SEARCH_PATHS' => '$(SDKROOT)/usr/include/CommonCrypto' }
+        ss.frameworks          =
+        'CoreGraphics', 'Foundation', 'SystemConfiguration','Security', 'UIKit'
     end
 
     s.dependency 'YBNetwork'
     s.dependency 'YYImage'
+    s.dependency 'SSZipArchive'
+    s.xcconfig   = {
+        'HEADER_SEARCH_PATHS' => '$(SDKROOT)/usr/include/CommonCrypto' }
     s.library             = 'sqlite3'
     s.frameworks       = 'Foundation', 'UIKit', 'CoreGraphics', 'Photos','Security'
 end

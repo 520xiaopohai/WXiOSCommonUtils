@@ -36,7 +36,7 @@
 #import "YBBaseRequest.h"
 #endif
 
-#import "YBNetworkManager.h"
+
 
 // category
 #import "UIView+WXExtention.h"
@@ -63,7 +63,7 @@
 
 //#import "NBPhoneNumberUtil.h"
 
-#import "ZipArchive.h"
+#import "SSZipArchive.h"
 
 //! Project version number for WXiOSCommonUtils.
 FOUNDATION_EXPORT double WXiOSCommonUtilsVersionNumber;

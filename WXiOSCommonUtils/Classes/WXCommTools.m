@@ -7,7 +7,7 @@
 //
 
 #import "WXCommTools.h"
-#import "ZipArchive.h"
+#import "SSZipArchive.h"
 //#import "JSONKit.h"
 #import "DES.h"
 #import "WXCommSettings.h"
