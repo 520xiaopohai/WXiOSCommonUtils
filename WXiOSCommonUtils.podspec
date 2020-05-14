@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
     s.name             = 'WXiOSCommonUtils'
-    s.version          = '0.1.4'
+    s.version          = '0.1.5'
     s.summary          = 'A short description of WXiOSCommonUtils.'
 
     # This description is used to generate tags and improve search results.
@@ -54,7 +54,7 @@ Pod::Spec.new do |s|
     s.subspec 'Classes' do |ss|
         ss.source_files = 'WXiOSCommonUtils/Classes/*'
         ss.dependency 'AFNetworking','3.2.1'
-        ss.dependency 'WXiOSCommonUtils/Utils/ZipArchive'
+        ss.dependency 'SSZipArchive'
         ss.dependency 'WXiOSCommonUtils/Utils/DES'
         ss.library             = 'sqlite3'
         ss.xcconfig   = {
